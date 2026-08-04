@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "chainFolder": "polygon(matic)",
+  "updatedAt": "2026-08-04T11:02:38.908Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x03aE3Df74eD02A83bf941447f464e8369BA44440",
+      "address": "0x03aE3Df74eD02A83bf941447f464e8369BA44440",
+      "icon": "tokens/polygon(matic)/0x03aE3Df74eD02A83bf941447f464e8369BA44440.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x06D4c7e137C9e356594D88BAE0E08Ab62fFDA76F",
+      "address": "0x06D4c7e137C9e356594D88BAE0E08Ab62fFDA76F",
+      "icon": "tokens/polygon(matic)/0x06D4c7e137C9e356594D88BAE0E08Ab62fFDA76F.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x0907B8B13970DF091ECc9d4d4c7AE12A599Ad923",
+      "address": "0x0907B8B13970DF091ECc9d4d4c7AE12A599Ad923",
+      "icon": "tokens/polygon(matic)/0x0907B8B13970DF091ECc9d4d4c7AE12A599Ad923.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x198380A405036307cF3ECa2a6350560D0a14bC6A",
+      "address": "0x198380A405036307cF3ECa2a6350560D0a14bC6A",
+      "icon": "tokens/polygon(matic)/0x198380A405036307cF3ECa2a6350560D0a14bC6A.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x20791BF24aA283De42D08BE7B112dE458186036e",
+      "address": "0x20791BF24aA283De42D08BE7B112dE458186036e",
+      "icon": "tokens/polygon(matic)/0x20791BF24aA283De42D08BE7B112dE458186036e.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x25412b8e8fd20fd5c875227da1641ef490191a5d",
+      "address": "0x25412b8e8fd20fd5c875227da1641ef490191a5d",
+      "icon": "tokens/polygon(matic)/0x25412b8e8fd20fd5c875227da1641ef490191a5d.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x2598c30330D5771AE9F983979209486aE26dE875",
+      "address": "0x2598c30330D5771AE9F983979209486aE26dE875",
+      "icon": "tokens/polygon(matic)/0x2598c30330D5771AE9F983979209486aE26dE875.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x354eBDDB6D5E9F7a832Ab17283F3a53c5d65d481",
+      "address": "0x354eBDDB6D5E9F7a832Ab17283F3a53c5d65d481",
+      "icon": "tokens/polygon(matic)/0x354eBDDB6D5E9F7a832Ab17283F3a53c5d65d481.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x392995b5ee75b8471b8b51e64b023a38a21e2c2b",
+      "address": "0x392995b5ee75b8471b8b51e64b023a38a21e2c2b",
+      "icon": "tokens/polygon(matic)/0x392995b5ee75b8471b8b51e64b023a38a21e2c2b.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x3ED321cB427B204936408ff835B5cB8EC0c31b96",
+      "address": "0x3ED321cB427B204936408ff835B5cB8EC0c31b96",
+      "icon": "tokens/polygon(matic)/0x3ED321cB427B204936408ff835B5cB8EC0c31b96.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x3d356E087E3c6B25E1772C0574E02057102296DA",
+      "address": "0x3d356E087E3c6B25E1772C0574E02057102296DA",
+      "icon": "tokens/polygon(matic)/0x3d356E087E3c6B25E1772C0574E02057102296DA.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x4c97553C374F1b212c404f7766fC740a43A02CFe",
+      "address": "0x4c97553C374F1b212c404f7766fC740a43A02CFe",
+      "icon": "tokens/polygon(matic)/0x4c97553C374F1b212c404f7766fC740a43A02CFe.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x56F4D3019680B992e2e18533385293710b44010D",
+      "address": "0x56F4D3019680B992e2e18533385293710b44010D",
+      "icon": "tokens/polygon(matic)/0x56F4D3019680B992e2e18533385293710b44010D.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x5dd1cbf142F4B896D18aF835C1734363b0d50fB0",
+      "address": "0x5dd1cbf142F4B896D18aF835C1734363b0d50fB0",
+      "icon": "tokens/polygon(matic)/0x5dd1cbf142F4B896D18aF835C1734363b0d50fB0.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x6104947274a38CaEeb66ec84C5b78095a75AD4f8",
+      "address": "0x6104947274a38CaEeb66ec84C5b78095a75AD4f8",
+      "icon": "tokens/polygon(matic)/0x6104947274a38CaEeb66ec84C5b78095a75AD4f8.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x635f6f604b90C2fA97c9D712CF973dead678e68D",
+      "address": "0x635f6f604b90C2fA97c9D712CF973dead678e68D",
+      "icon": "tokens/polygon(matic)/0x635f6f604b90C2fA97c9D712CF973dead678e68D.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x658Cda444aC43B0a7DA13D638700931319B64014",
+      "address": "0x658Cda444aC43B0a7DA13D638700931319B64014",
+      "icon": "tokens/polygon(matic)/0x658Cda444aC43B0a7DA13D638700931319B64014.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x6Ae1ad4444c2D4772F7E4f25428F070df9486572",
+      "address": "0x6Ae1ad4444c2D4772F7E4f25428F070df9486572",
+      "icon": "tokens/polygon(matic)/0x6Ae1ad4444c2D4772F7E4f25428F070df9486572.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x6Ce46adCF515d1da5119bBE5b8f4919877b758d3",
+      "address": "0x6Ce46adCF515d1da5119bBE5b8f4919877b758d3",
+      "icon": "tokens/polygon(matic)/0x6Ce46adCF515d1da5119bBE5b8f4919877b758d3.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x6Fd731121D27cDE36d583878BFEE80586D66c6E3",
+      "address": "0x6Fd731121D27cDE36d583878BFEE80586D66c6E3",
+      "icon": "tokens/polygon(matic)/0x6Fd731121D27cDE36d583878BFEE80586D66c6E3.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x6aB4d79c4dBb009A2C4c6b7f8e8e067fC92e28b9",
+      "address": "0x6aB4d79c4dBb009A2C4c6b7f8e8e067fC92e28b9",
+      "icon": "tokens/polygon(matic)/0x6aB4d79c4dBb009A2C4c6b7f8e8e067fC92e28b9.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x6cA4CD8873db45596C915268FC737994933D8a27",
+      "address": "0x6cA4CD8873db45596C915268FC737994933D8a27",
+      "icon": "tokens/polygon(matic)/0x6cA4CD8873db45596C915268FC737994933D8a27.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x70EACa15f340b64C5F5E1017EDa7fD00D724CBc3",
+      "address": "0x70EACa15f340b64C5F5E1017EDa7fD00D724CBc3",
+      "icon": "tokens/polygon(matic)/0x70EACa15f340b64C5F5E1017EDa7fD00D724CBc3.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x7585042b97f82404438c778185Ea6F5797B4e8ad",
+      "address": "0x7585042b97f82404438c778185Ea6F5797B4e8ad",
+      "icon": "tokens/polygon(matic)/0x7585042b97f82404438c778185Ea6F5797B4e8ad.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x75C551adE6762B5aD4EBd50DcA4238c9de4D357D",
+      "address": "0x75C551adE6762B5aD4EBd50DcA4238c9de4D357D",
+      "icon": "tokens/polygon(matic)/0x75C551adE6762B5aD4EBd50DcA4238c9de4D357D.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x76f8a10265865376e4f90f6d78262d2d55f4c853",
+      "address": "0x76f8a10265865376e4f90f6d78262d2d55f4c853",
+      "icon": "tokens/polygon(matic)/0x76f8a10265865376e4f90f6d78262d2d55f4c853.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x78d73441d736d66bd3dae9897072a046e54b82ee",
+      "address": "0x78d73441d736d66bd3dae9897072a046e54b82ee",
+      "icon": "tokens/polygon(matic)/0x78d73441d736d66bd3dae9897072a046e54b82ee.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x7F72b0Ab913C169966F827E31B52C62ecaC32Ef9",
+      "address": "0x7F72b0Ab913C169966F827E31B52C62ecaC32Ef9",
+      "icon": "tokens/polygon(matic)/0x7F72b0Ab913C169966F827E31B52C62ecaC32Ef9.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x7e1AE068Ac4e0ffD7a84750c2FB093A0EAE9aEa2",
+      "address": "0x7e1AE068Ac4e0ffD7a84750c2FB093A0EAE9aEa2",
+      "icon": "tokens/polygon(matic)/0x7e1AE068Ac4e0ffD7a84750c2FB093A0EAE9aEa2.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x8Dd28e47e550243313eA997c4906605e7876c764",
+      "address": "0x8Dd28e47e550243313eA997c4906605e7876c764",
+      "icon": "tokens/polygon(matic)/0x8Dd28e47e550243313eA997c4906605e7876c764.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x8a092Fdd8f30295eFf5D8F188eA81946642C9Ef2",
+      "address": "0x8a092Fdd8f30295eFf5D8F188eA81946642C9Ef2",
+      "icon": "tokens/polygon(matic)/0x8a092Fdd8f30295eFf5D8F188eA81946642C9Ef2.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x8fe893e3b6d7d2407509446257A782e4f6Fefa7d",
+      "address": "0x8fe893e3b6d7d2407509446257A782e4f6Fefa7d",
+      "icon": "tokens/polygon(matic)/0x8fe893e3b6d7d2407509446257A782e4f6Fefa7d.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0x9DC1631D7C3CF25A23Ae8c064d7d7e3329473515",
+      "address": "0x9DC1631D7C3CF25A23Ae8c064d7d7e3329473515",
+      "icon": "tokens/polygon(matic)/0x9DC1631D7C3CF25A23Ae8c064d7d7e3329473515.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0xA41eE9a01fd417c372B318746d8891c0C240A73c",
+      "address": "0xA41eE9a01fd417c372B318746d8891c0C240A73c",
+      "icon": "tokens/polygon(matic)/0xA41eE9a01fd417c372B318746d8891c0C240A73c.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0xAFC430b4A9AcD52401d19D09330Eb41a19055d00",
+      "address": "0xAFC430b4A9AcD52401d19D09330Eb41a19055d00",
+      "icon": "tokens/polygon(matic)/0xAFC430b4A9AcD52401d19D09330Eb41a19055d00.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0xB2F7C4B3e6ED7ada68D6733C6F1C987270717bCa",
+      "address": "0xB2F7C4B3e6ED7ada68D6733C6F1C987270717bCa",
+      "icon": "tokens/polygon(matic)/0xB2F7C4B3e6ED7ada68D6733C6F1C987270717bCa.png"
+    },
+    {
+      "chainFolder": "polygon(matic)",
+      "path": "polygon(matic)/0xC08364b9864b65CD0B6dcEb2487c87110d1AA126",
+      "address": "0xC08364b9864b65CD0B6dcEb2487c87110d1AA126",
+      "icon": "tokens/polygon(matic)/0xC08364b9864b65CD0B6dcEb2487c87110d1AA126.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "chainFolder": "ton",
+  "updatedAt": "2026-08-04T11:02:41.135Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "ton",
+      "path": "ton/EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "address": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "icon": "tokens/ton/EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs.png"
+    }
+  ]
+}

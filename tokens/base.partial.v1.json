@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "chainFolder": "base",
+  "updatedAt": "2026-08-04T11:01:57.394Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "base",
+      "path": "base/0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "icon": "tokens/base/0x0000000000000000000000000000000000000000.png"
+    },
+    {
+      "chainFolder": "base",
+      "path": "base/0x2598c30330D5771AE9F983979209486aE26dE875",
+      "address": "0x2598c30330D5771AE9F983979209486aE26dE875",
+      "icon": "tokens/base/0x2598c30330D5771AE9F983979209486aE26dE875.png"
+    },
+    {
+      "chainFolder": "base",
+      "path": "base/0x6f03b3Df22F0C57A4477EEAc3a49c2Bc4EAe2206",
+      "address": "0x6f03b3Df22F0C57A4477EEAc3a49c2Bc4EAe2206",
+      "icon": "tokens/base/0x6f03b3Df22F0C57A4477EEAc3a49c2Bc4EAe2206.png"
+    },
+    {
+      "chainFolder": "base",
+      "path": "base/0x87c211144b1D9bDAA5A791B8099EA4123dC31D21",
+      "address": "0x87c211144b1D9bDAA5A791B8099EA4123dC31D21",
+      "icon": "tokens/base/0x87c211144b1D9bDAA5A791B8099EA4123dC31D21.png"
+    },
+    {
+      "chainFolder": "base",
+      "path": "base/0xA5053C346f4759198bd6B64171db1Eff4CBA6331",
+      "address": "0xA5053C346f4759198bd6B64171db1Eff4CBA6331",
+      "icon": "tokens/base/0xA5053C346f4759198bd6B64171db1Eff4CBA6331.png"
+    },
+    {
+      "chainFolder": "base",
+      "path": "base/0xC4AE1DAF4867c128a2e97f2E7e6FF3215eB55555",
+      "address": "0xC4AE1DAF4867c128a2e97f2E7e6FF3215eB55555",
+      "icon": "tokens/base/0xC4AE1DAF4867c128a2e97f2E7e6FF3215eB55555.png"
+    }
+  ]
+}

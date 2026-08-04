@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-08-04T11:03:06.827Z",
+  "note": "Native asset icons from trustwallet/assets (MIT).",
+  "tokens": [
+    {
+      "symbol": "BTC",
+      "icon": "tokens/bitcoin/BTC.png",
+      "source": "trustwallet/assets"
+    },
+    {
+      "symbol": "ETH",
+      "icon": "tokens/eth/ETH.png",
+      "source": "trustwallet/assets"
+    },
+    {
+      "symbol": "TRX",
+      "icon": "tokens/tron/TRX.png",
+      "source": "trustwallet/assets"
+    },
+    {
+      "symbol": "SOL",
+      "icon": "tokens/solana/SOL.png",
+      "source": "trustwallet/assets"
+    }
+  ]
+}

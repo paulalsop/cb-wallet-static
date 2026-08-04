@@ -1,0 +1,729 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-remote-chains-v1",
+  "updatedAt": "2026-08-04T11:16:40.122Z",
+  "featured": [
+    {
+      "sortIndex": 0,
+      "list": "featured",
+      "chainKey": "evm-eth-1",
+      "caip2": "eip155:1",
+      "family": "evm",
+      "displayName": "Ethereum Mainnet",
+      "shortName": "eth",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 1,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-1.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://ethereum.org",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.498Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 1,
+      "list": "featured",
+      "chainKey": "evm-bsc-mainnet",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "displayName": "BNB Smart Chain",
+      "shortName": "BSC",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 56,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-56.png"
+      },
+      "explorers": [
+        {
+          "sortIndex": 0,
+          "name": "BscScan",
+          "url": "https://bscscan.com"
+        }
+      ],
+      "infoUrl": "https://www.bnbchain.org",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T11:16:40.120Z",
+        "source": "complete-solana-bsc"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 2,
+      "list": "featured",
+      "chainKey": "solana-mainnet",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "displayName": "Solana",
+      "shortName": "SOL",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Solana",
+        "symbol": "SOL",
+        "decimals": 9
+      },
+      "icon": {
+        "default": "chains/solana-mainnet.png"
+      },
+      "explorers": [
+        {
+          "sortIndex": 0,
+          "name": "Solscan",
+          "url": "https://solscan.io"
+        },
+        {
+          "sortIndex": 1,
+          "name": "Solana Explorer",
+          "url": "https://explorer.solana.com"
+        }
+      ],
+      "infoUrl": "https://solana.com",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T11:16:40.122Z",
+        "source": "complete-solana-bsc"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 3,
+      "list": "featured",
+      "chainKey": "evm-matic-137",
+      "caip2": "eip155:137",
+      "family": "evm",
+      "displayName": "Polygon (Matic) Mainnet",
+      "shortName": "matic",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Matic",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 137,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-137.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://matic.network/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "ui": {
+        "colorBg": "0x7F4CDE"
+      }
+    },
+    {
+      "sortIndex": 4,
+      "list": "featured",
+      "chainKey": "evm-arbitrum-42161",
+      "caip2": "eip155:42161",
+      "family": "evm",
+      "displayName": "Arbitrum One",
+      "shortName": "Arbitrum",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 42161,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-42161.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://arbitrum.io/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 5,
+      "list": "featured",
+      "chainKey": "evm-oeth-10",
+      "caip2": "eip155:10",
+      "family": "evm",
+      "displayName": "Optimistic Ethereum",
+      "shortName": "oeth",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "OETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 10,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-10.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://optimism.io",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "ui": {
+        "colorBg": "0xF54B49"
+      }
+    },
+    {
+      "sortIndex": 6,
+      "list": "featured",
+      "chainKey": "evm-base-8453",
+      "caip2": "eip155:8453",
+      "family": "evm",
+      "displayName": "Base",
+      "shortName": "base",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 8453,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-8453.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://base.org",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 7,
+      "list": "featured",
+      "chainKey": "evm-avalanche-43114",
+      "caip2": "eip155:43114",
+      "family": "evm",
+      "displayName": "Avalanche Mainnet",
+      "shortName": "Avalanche",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 43114,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-43114.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://cchain.explorer.avax.network/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "ui": {
+        "colorBg": "0xE92734"
+      }
+    },
+    {
+      "sortIndex": 8,
+      "list": "featured",
+      "chainKey": "evm-ftm-250",
+      "caip2": "eip155:250",
+      "family": "evm",
+      "displayName": "Fantom Opera",
+      "shortName": "ftm",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Fantom",
+        "symbol": "FTM",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 250,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-250.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://fantom.foundation",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "ui": {
+        "colorBg": "0x1969FF"
+      }
+    },
+    {
+      "sortIndex": 9,
+      "list": "featured",
+      "chainKey": "evm-xdai-100",
+      "caip2": "eip155:100",
+      "family": "evm",
+      "displayName": "xDAI Chain",
+      "shortName": "xdai",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "xDAI",
+        "symbol": "xDAI",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 100,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-100.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://forum.poa.network/c/xdai-chain",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "ui": {
+        "colorBg": "0x58B2AF"
+      }
+    },
+    {
+      "sortIndex": 10,
+      "list": "featured",
+      "chainKey": "evm-zksync-324",
+      "caip2": "eip155:324",
+      "family": "evm",
+      "displayName": "zkSync Era Mainnet",
+      "shortName": "zksync",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 324,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-324.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://zksync.io/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 11,
+      "list": "featured",
+      "chainKey": "evm-linea-59144",
+      "caip2": "eip155:59144",
+      "family": "evm",
+      "displayName": "Linea",
+      "shortName": "linea",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Linea Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 59144,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-59144.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://linea.build",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 12,
+      "list": "featured",
+      "chainKey": "evm-scr-534352",
+      "caip2": "eip155:534352",
+      "family": "evm",
+      "displayName": "Scroll",
+      "shortName": "scr",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 534352,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-534352.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://scroll.io",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 13,
+      "list": "featured",
+      "chainKey": "evm-mantle-5000",
+      "caip2": "eip155:5000",
+      "family": "evm",
+      "displayName": "Mantle",
+      "shortName": "mantle",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "BitDAO",
+        "symbol": "BIT",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 5000,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-5000.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://mantle.xyz",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 14,
+      "list": "featured",
+      "chainKey": "evm-blastmainnet-81457",
+      "caip2": "eip155:81457",
+      "family": "evm",
+      "displayName": "Blast",
+      "shortName": "blastmainnet",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 81457,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-81457.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://blast.io/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 15,
+      "list": "featured",
+      "chainKey": "evm-celo-42220",
+      "caip2": "eip155:42220",
+      "family": "evm",
+      "displayName": "Celo Mainnet",
+      "shortName": "CELO",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 42220,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-42220.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://docs.celo.org/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 16,
+      "list": "featured",
+      "chainKey": "evm-cro-25",
+      "caip2": "eip155:25",
+      "family": "evm",
+      "displayName": "Cronos Mainnet",
+      "shortName": "CRO",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "CRO",
+        "symbol": "CRO",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 25,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-25.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://cronos.crypto.org/explorer",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 17,
+      "list": "featured",
+      "chainKey": "evm-mbeam-1284",
+      "caip2": "eip155:1284",
+      "family": "evm",
+      "displayName": "Moonbeam Polkadot",
+      "shortName": "mbeam",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Glimmer",
+        "symbol": "GLMR",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 1284,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-1284.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://moonbeam.network/networks/moonbeam/",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 18,
+      "list": "featured",
+      "chainKey": "evm-kava-2222",
+      "caip2": "eip155:2222",
+      "family": "evm",
+      "displayName": "Kava EVM",
+      "shortName": "kava",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Kava",
+        "symbol": "KAVA",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 2222,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-2222.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://www.kava.io",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 19,
+      "list": "featured",
+      "chainKey": "evm-metis-andromeda-1088",
+      "caip2": "eip155:1088",
+      "family": "evm",
+      "displayName": "Metis Andromeda Mainnet",
+      "shortName": "metis-androm",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Metis",
+        "symbol": "METIS",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 1088,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-1088.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://www.metis.io",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    },
+    {
+      "sortIndex": 20,
+      "list": "featured",
+      "chainKey": "evm-zkevm-1101",
+      "caip2": "eip155:1101",
+      "family": "evm",
+      "displayName": "Polygon zkEVM",
+      "shortName": "zkevm",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 1101,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-1101.png"
+      },
+      "explorers": [],
+      "infoUrl": "https://polygon.technology/polygon-zkevm",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-04T10:57:43.499Z",
+        "source": "public-evm-networklist"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": []
+    }
+  ],
+  "cbPublished": []
+}

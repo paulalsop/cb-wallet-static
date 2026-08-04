@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "chainFolder": "arbitrum",
+  "updatedAt": "2026-08-04T11:02:20.711Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x077bc655c8d81b7de71c79318d0eb8f987e12820",
+      "address": "0x077bc655c8d81b7de71c79318d0eb8f987e12820",
+      "icon": "tokens/arbitrum/0x077bc655c8d81b7de71c79318d0eb8f987e12820.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x09821601A28814ce552bCc2220d78aCc7cFF0D9E",
+      "address": "0x09821601A28814ce552bCc2220d78aCc7cFF0D9E",
+      "icon": "tokens/arbitrum/0x09821601A28814ce552bCc2220d78aCc7cFF0D9E.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x09dE1513f9406eD44F713f59e9F712Ae12448D58",
+      "address": "0x09dE1513f9406eD44F713f59e9F712Ae12448D58",
+      "icon": "tokens/arbitrum/0x09dE1513f9406eD44F713f59e9F712Ae12448D58.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x0b26353606a1BE9C626C4A01E811157356BfA33F",
+      "address": "0x0b26353606a1BE9C626C4A01E811157356BfA33F",
+      "icon": "tokens/arbitrum/0x0b26353606a1BE9C626C4A01E811157356BfA33F.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x14b0D1Af06685eb82D043f3c80659eF74256c258",
+      "address": "0x14b0D1Af06685eb82D043f3c80659eF74256c258",
+      "icon": "tokens/arbitrum/0x14b0D1Af06685eb82D043f3c80659eF74256c258.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x16290a6eADFE4C291AE8F60057632797B63c556A",
+      "address": "0x16290a6eADFE4C291AE8F60057632797B63c556A",
+      "icon": "tokens/arbitrum/0x16290a6eADFE4C291AE8F60057632797B63c556A.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x187aF63200847D16B1DF23CAAb6aD1dE6e2457A6",
+      "address": "0x187aF63200847D16B1DF23CAAb6aD1dE6e2457A6",
+      "icon": "tokens/arbitrum/0x187aF63200847D16B1DF23CAAb6aD1dE6e2457A6.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x1EB747caCe61EaB366C98a18617b7E210d03818e",
+      "address": "0x1EB747caCe61EaB366C98a18617b7E210d03818e",
+      "icon": "tokens/arbitrum/0x1EB747caCe61EaB366C98a18617b7E210d03818e.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x1a8dd678e1f0e04ACE37d7D6C749E93C40960f95",
+      "address": "0x1a8dd678e1f0e04ACE37d7D6C749E93C40960f95",
+      "icon": "tokens/arbitrum/0x1a8dd678e1f0e04ACE37d7D6C749E93C40960f95.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x1bfd39BbAfA100c8CD47fC01cAe8fdFB4126ACee",
+      "address": "0x1bfd39BbAfA100c8CD47fC01cAe8fdFB4126ACee",
+      "icon": "tokens/arbitrum/0x1bfd39BbAfA100c8CD47fC01cAe8fdFB4126ACee.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x299142a6370e1912156E53fBD4f25D7ba49DdcC5",
+      "address": "0x299142a6370e1912156E53fBD4f25D7ba49DdcC5",
+      "icon": "tokens/arbitrum/0x299142a6370e1912156E53fBD4f25D7ba49DdcC5.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x29C1EA5ED7af53094b1a79eF60d20641987c867e",
+      "address": "0x29C1EA5ED7af53094b1a79eF60d20641987c867e",
+      "icon": "tokens/arbitrum/0x29C1EA5ED7af53094b1a79eF60d20641987c867e.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x319e222De462ac959BAf2aEc848697AeC2bbD770",
+      "address": "0x319e222De462ac959BAf2aEc848697AeC2bbD770",
+      "icon": "tokens/arbitrum/0x319e222De462ac959BAf2aEc848697AeC2bbD770.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x378585830D92BA7197E2f5c8B780c1e8a547Ab44",
+      "address": "0x378585830D92BA7197E2f5c8B780c1e8a547Ab44",
+      "icon": "tokens/arbitrum/0x378585830D92BA7197E2f5c8B780c1e8a547Ab44.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x3B1A2A8930158a836DdBDb4831AA4734A90ACDbE",
+      "address": "0x3B1A2A8930158a836DdBDb4831AA4734A90ACDbE",
+      "icon": "tokens/arbitrum/0x3B1A2A8930158a836DdBDb4831AA4734A90ACDbE.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x3a57D369d3a6D81d5e384cCb0e6B1BA9D42B1F9F",
+      "address": "0x3a57D369d3a6D81d5e384cCb0e6B1BA9D42B1F9F",
+      "icon": "tokens/arbitrum/0x3a57D369d3a6D81d5e384cCb0e6B1BA9D42B1F9F.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x3c4A270E3c6F59c01C912DD8061489a3C8af8831",
+      "address": "0x3c4A270E3c6F59c01C912DD8061489a3C8af8831",
+      "icon": "tokens/arbitrum/0x3c4A270E3c6F59c01C912DD8061489a3C8af8831.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x404E453b474aD8FC19CdF9373ba2Fa9318871D7f",
+      "address": "0x404E453b474aD8FC19CdF9373ba2Fa9318871D7f",
+      "icon": "tokens/arbitrum/0x404E453b474aD8FC19CdF9373ba2Fa9318871D7f.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x4057efe94743d53c87E0845A92AB210e6BeE01c5",
+      "address": "0x4057efe94743d53c87E0845A92AB210e6BeE01c5",
+      "icon": "tokens/arbitrum/0x4057efe94743d53c87E0845A92AB210e6BeE01c5.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x406d59819Bc2AeF682F4Ff2769085c98a264F97b",
+      "address": "0x406d59819Bc2AeF682F4Ff2769085c98a264F97b",
+      "icon": "tokens/arbitrum/0x406d59819Bc2AeF682F4Ff2769085c98a264F97b.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x439C0cF1038F8002A4CAD489b427e217BA4B42AD",
+      "address": "0x439C0cF1038F8002A4CAD489b427e217BA4B42AD",
+      "icon": "tokens/arbitrum/0x439C0cF1038F8002A4CAD489b427e217BA4B42AD.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x4406509b532b111BD39b5b579561001CBF0d7acf",
+      "address": "0x4406509b532b111BD39b5b579561001CBF0d7acf",
+      "icon": "tokens/arbitrum/0x4406509b532b111BD39b5b579561001CBF0d7acf.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x5961cBc865728cb86CB9eFa293e897a81fa94b64",
+      "address": "0x5961cBc865728cb86CB9eFa293e897a81fa94b64",
+      "icon": "tokens/arbitrum/0x5961cBc865728cb86CB9eFa293e897a81fa94b64.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x5de9D41bbfcd7B1fa0dEF82A906FF9604B292E58",
+      "address": "0x5de9D41bbfcd7B1fa0dEF82A906FF9604B292E58",
+      "icon": "tokens/arbitrum/0x5de9D41bbfcd7B1fa0dEF82A906FF9604B292E58.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x65E314a77655891624163d4315b26ba320745CC1",
+      "address": "0x65E314a77655891624163d4315b26ba320745CC1",
+      "icon": "tokens/arbitrum/0x65E314a77655891624163d4315b26ba320745CC1.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x65FA064E808B33462A214DeE8b8B715C3424FDDA",
+      "address": "0x65FA064E808B33462A214DeE8b8B715C3424FDDA",
+      "icon": "tokens/arbitrum/0x65FA064E808B33462A214DeE8b8B715C3424FDDA.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x76207fe6d09b24e8e9465bb413dcb19505f14503",
+      "address": "0x76207fe6d09b24e8e9465bb413dcb19505f14503",
+      "icon": "tokens/arbitrum/0x76207fe6d09b24e8e9465bb413dcb19505f14503.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x7837AE9E4FD6E967F1B8C8824D6288ECE6e730F9",
+      "address": "0x7837AE9E4FD6E967F1B8C8824D6288ECE6e730F9",
+      "icon": "tokens/arbitrum/0x7837AE9E4FD6E967F1B8C8824D6288ECE6e730F9.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x8bB0D6fe0061b5F46742415BEA3621F4AF01f9c7",
+      "address": "0x8bB0D6fe0061b5F46742415BEA3621F4AF01f9c7",
+      "icon": "tokens/arbitrum/0x8bB0D6fe0061b5F46742415BEA3621F4AF01f9c7.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x9B69a41A5a66AD5105cA3B7057782CB84Bbb1B96",
+      "address": "0x9B69a41A5a66AD5105cA3B7057782CB84Bbb1B96",
+      "icon": "tokens/arbitrum/0x9B69a41A5a66AD5105cA3B7057782CB84Bbb1B96.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0x9c8eF67C9168587134e1F29a71405DC753500A45",
+      "address": "0x9c8eF67C9168587134e1F29a71405DC753500A45",
+      "icon": "tokens/arbitrum/0x9c8eF67C9168587134e1F29a71405DC753500A45.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0xAB88D66Bc82AC67b5a7eAa96B5FAC127D0DAAAAa",
+      "address": "0xAB88D66Bc82AC67b5a7eAa96B5FAC127D0DAAAAa",
+      "icon": "tokens/arbitrum/0xAB88D66Bc82AC67b5a7eAa96B5FAC127D0DAAAAa.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0xB5c0ca8702957C4FC01ad50a9EEe53E80144d09d",
+      "address": "0xB5c0ca8702957C4FC01ad50a9EEe53E80144d09d",
+      "icon": "tokens/arbitrum/0xB5c0ca8702957C4FC01ad50a9EEe53E80144d09d.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0xC7ca0aBfeFBAC7128d0533312532F6Ad8E07ded3",
+      "address": "0xC7ca0aBfeFBAC7128d0533312532F6Ad8E07ded3",
+      "icon": "tokens/arbitrum/0xC7ca0aBfeFBAC7128d0533312532F6Ad8E07ded3.png"
+    },
+    {
+      "chainFolder": "arbitrum",
+      "path": "arbitrum/0xD5Ee12fb0fF3a35f247EEe9c833cddE5f38e2988",
+      "address": "0xD5Ee12fb0fF3a35f247EEe9c833cddE5f38e2988",
+      "icon": "tokens/arbitrum/0xD5Ee12fb0fF3a35f247EEe9c833cddE5f38e2988.png"
+    }
+  ]
+}

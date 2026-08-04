@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "publishedAt": "2026-08-04T11:19:58.797927Z",
+  "files": {
+    "chains.catalog": {
+      "path": "chains/catalog.v1.json",
+      "sha256": "cc909c0e07003c4a8667810a00c780e3563c27691b89c1d0a4b039b72604b99a"
+    },
+    "chains.rpc": {
+      "path": "chains/rpc.v1.json",
+      "sha256": "d76872de5ad124c0ade5b83af2cd69e7c5423394a62d73c4e6bd96221c9c221f"
+    },
+    "bridges.network": {
+      "path": "bridges/network-bridge.v1.json",
+      "sha256": "91915d4fa461a91956414461f281bc26e9f60baba1b3e8aa1f2951f424e4183d"
+    },
+    "chains.publicEvm": {
+      "path": "chains/public-evm.v1.json",
+      "sha256": "493230d0521500bbc3d2657162694ce6894b764a40a85d09aa0d3cc11e685123"
+    },
+    "tokens.stablecoins": {
+      "path": "tokens/stablecoins.v1.json",
+      "sha256": "6e9dbf131fa5d209141489ac8c675662f4993c51767f4fc1a09dc1b53a5ec318"
+    },
+    "tokens.bscPopular": {
+      "path": "tokens/bsc.popular.v1.json",
+      "sha256": "ec495b9f97a111d5410fce69fada00aa398edc2448b6e55780a3588b49b6f2e0"
+    },
+    "tokens.solanaPopular": {
+      "path": "tokens/solana.popular.v1.json",
+      "sha256": "a1640c24323b619dc3dfa46d0c92be6178cb7508e4338fe8e570c03125b50291"
+    }
+  },
+  "iconBase": "https://paulalsop.github.io/cb-wallet-static/icons/"
+}

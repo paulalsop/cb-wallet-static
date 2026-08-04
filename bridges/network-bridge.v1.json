@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-04T00:00:00.000Z",
+  "comment": "Discovery only — never holds keys. Host via GitHub Pages.",
+  "rpc": {
+    "eip155:1": {
+      "urls": [
+        "https://ethereum.publicnode.com"
+      ],
+      "label": "default"
+    },
+    "eip155:137": {
+      "urls": [
+        "https://polygon-bor.publicnode.com"
+      ],
+      "label": "default"
+    }
+  },
+  "bridges": []
+}

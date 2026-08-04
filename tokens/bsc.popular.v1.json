@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-bsc-popular-v1",
+  "updatedAt": "2026-08-04T11:16:42.363Z",
+  "caip2": "eip155:56",
+  "rule": "Per-chain tokens; never merge by symbol across chains.",
+  "tokens": [
+    {
+      "sortIndex": 0,
+      "tokenKey": "eip155:56/native",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": null,
+      "addressKey": "native",
+      "symbol": "BNB",
+      "name": "BNB",
+      "decimals": 18,
+      "displayHint": "BNB · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/native.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 1,
+      "tokenKey": "eip155:56/erc20:0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "addressKey": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18,
+      "displayHint": "WBNB · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 2,
+      "tokenKey": "eip155:56/erc20:0x55d398326f99059ff775485246999027b3197955",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "addressKey": "0x55d398326f99059ff775485246999027b3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18,
+      "displayHint": "USDT · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x55d398326f99059ff775485246999027b3197955.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 3,
+      "tokenKey": "eip155:56/erc20:0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "addressKey": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 18,
+      "displayHint": "USDC · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 4,
+      "tokenKey": "eip155:56/erc20:0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+      "addressKey": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "symbol": "FDUSD",
+      "name": "First Digital USD",
+      "decimals": 18,
+      "displayHint": "FDUSD · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 5,
+      "tokenKey": "eip155:56/erc20:0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "addressKey": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "displayHint": "ETH · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 6,
+      "tokenKey": "eip155:56/erc20:0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "addressKey": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "symbol": "BTCB",
+      "name": "BTCB Token",
+      "decimals": 18,
+      "displayHint": "BTCB · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 7,
+      "tokenKey": "eip155:56/erc20:0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "addressKey": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "symbol": "DAI",
+      "name": "Dai Token",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    },
+    {
+      "sortIndex": 8,
+      "tokenKey": "eip155:56/erc20:0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "caip2": "eip155:56",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "addressKey": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "symbol": "CAKE",
+      "name": "PancakeSwap Token",
+      "decimals": 18,
+      "displayHint": "CAKE · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ]
+    }
+  ]
+}

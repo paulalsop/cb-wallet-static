@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "chainFolder": "eth",
+  "updatedAt": "2026-08-04T11:03:08.914Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "eth",
+      "path": "eth",
+      "address": "eth",
+      "icon": "tokens/eth.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x000000e29fa2bd3E5C215fFc71aA66b29c9769A2",
+      "address": "0x000000e29fa2bd3E5C215fFc71aA66b29c9769A2",
+      "icon": "tokens/eth/0x000000e29fa2bd3E5C215fFc71aA66b29c9769A2.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x01659335Fc8aD471C7079f6f04E7532c7d001d43",
+      "address": "0x01659335Fc8aD471C7079f6f04E7532c7d001d43",
+      "icon": "tokens/eth/0x01659335Fc8aD471C7079f6f04E7532c7d001d43.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x025b66Da9b2fcD96B947e465E7b975D9182322C7",
+      "address": "0x025b66Da9b2fcD96B947e465E7b975D9182322C7",
+      "icon": "tokens/eth/0x025b66Da9b2fcD96B947e465E7b975D9182322C7.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x0271B6B5bC3e3AB74AFDC8Ca39481220588b8AFB",
+      "address": "0x0271B6B5bC3e3AB74AFDC8Ca39481220588b8AFB",
+      "icon": "tokens/eth/0x0271B6B5bC3e3AB74AFDC8Ca39481220588b8AFB.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x049e119413ab1f1b0fd836e657e3e4ba3ad9cab8",
+      "address": "0x049e119413ab1f1b0fd836e657e3e4ba3ad9cab8",
+      "icon": "tokens/eth/0x049e119413ab1f1b0fd836e657e3e4ba3ad9cab8.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x05030203674173Fa6dF6F9f7E34D6E70E9a761D7",
+      "address": "0x05030203674173Fa6dF6F9f7E34D6E70E9a761D7",
+      "icon": "tokens/eth/0x05030203674173Fa6dF6F9f7E34D6E70E9a761D7.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x060924FB947e37EEE230d0B1A71D9618aEc269fC",
+      "address": "0x060924FB947e37EEE230d0B1A71D9618aEc269fC",
+      "icon": "tokens/eth/0x060924FB947e37EEE230d0B1A71D9618aEc269fC.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x0885D134fb2c78deaDeeb6962d1eC796f0cFF43C",
+      "address": "0x0885D134fb2c78deaDeeb6962d1eC796f0cFF43C",
+      "icon": "tokens/eth/0x0885D134fb2c78deaDeeb6962d1eC796f0cFF43C.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x08A5A14Fa138fFf51680e8Ac4fE52Bcf1cE62A35",
+      "address": "0x08A5A14Fa138fFf51680e8Ac4fE52Bcf1cE62A35",
+      "icon": "tokens/eth/0x08A5A14Fa138fFf51680e8Ac4fE52Bcf1cE62A35.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x09ce2B746C32528B7d864A1e3979Bd97d2f095AB",
+      "address": "0x09ce2B746C32528B7d864A1e3979Bd97d2f095AB",
+      "icon": "tokens/eth/0x09ce2B746C32528B7d864A1e3979Bd97d2f095AB.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x0A8c9FD739D7662479A6D70CAdc3124c6Bd31d0B",
+      "address": "0x0A8c9FD739D7662479A6D70CAdc3124c6Bd31d0B",
+      "icon": "tokens/eth/0x0A8c9FD739D7662479A6D70CAdc3124c6Bd31d0B.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1288242882EB136400a9E68C9Fc7C5fC2096Ed5f",
+      "address": "0x1288242882EB136400a9E68C9Fc7C5fC2096Ed5f",
+      "icon": "tokens/eth/0x1288242882EB136400a9E68C9Fc7C5fC2096Ed5f.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x135783B60cf5d71DAFF7a377f9eb7dB8D2dEAb9e",
+      "address": "0x135783B60cf5d71DAFF7a377f9eb7dB8D2dEAb9e",
+      "icon": "tokens/eth/0x135783B60cf5d71DAFF7a377f9eb7dB8D2dEAb9e.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x141e84a470A5243689D3beB47777FbAe9636FA61",
+      "address": "0x141e84a470A5243689D3beB47777FbAe9636FA61",
+      "icon": "tokens/eth/0x141e84a470A5243689D3beB47777FbAe9636FA61.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1479f11B9B0104811e01bC4C8D3f80492FEa700f",
+      "address": "0x1479f11B9B0104811e01bC4C8D3f80492FEa700f",
+      "icon": "tokens/eth/0x1479f11B9B0104811e01bC4C8D3f80492FEa700f.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x15874d65e649880c2614e7a480cb7c9A55787FF6",
+      "address": "0x15874d65e649880c2614e7a480cb7c9A55787FF6",
+      "icon": "tokens/eth/0x15874d65e649880c2614e7a480cb7c9A55787FF6.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x15Ee120fD69BEc86C1d38502299af7366a41D1a6",
+      "address": "0x15Ee120fD69BEc86C1d38502299af7366a41D1a6",
+      "icon": "tokens/eth/0x15Ee120fD69BEc86C1d38502299af7366a41D1a6.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1997830B5beB723f5089bb8fc38766d419a0444d",
+      "address": "0x1997830B5beB723f5089bb8fc38766d419a0444d",
+      "icon": "tokens/eth/0x1997830B5beB723f5089bb8fc38766d419a0444d.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb",
+      "address": "0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb",
+      "icon": "tokens/eth/0x1bbf25e71ec48b84d773809b4ba55b6f4be946fb.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1c7E83f8C581a967940DBfa7984744646AE46b29",
+      "address": "0x1c7E83f8C581a967940DBfa7984744646AE46b29",
+      "icon": "tokens/eth/0x1c7E83f8C581a967940DBfa7984744646AE46b29.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1e8433F5017B3006f634293Ed9Ecf0e9504CdB25",
+      "address": "0x1e8433F5017B3006f634293Ed9Ecf0e9504CdB25",
+      "icon": "tokens/eth/0x1e8433F5017B3006f634293Ed9Ecf0e9504CdB25.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x1e987DF68CC13d271e621ec82E050A1BbD62c180",
+      "address": "0x1e987DF68CC13d271e621ec82E050A1BbD62c180",
+      "icon": "tokens/eth/0x1e987DF68CC13d271e621ec82E050A1BbD62c180.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x20cD2E7Ec8F5d8b337fe46a4F565Ccef1561b9a9",
+      "address": "0x20cD2E7Ec8F5d8b337fe46a4F565Ccef1561b9a9",
+      "icon": "tokens/eth/0x20cD2E7Ec8F5d8b337fe46a4F565Ccef1561b9a9.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
+      "address": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
+      "icon": "tokens/eth/0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x214e8e13b8114b567abae47dc839cc8adb6e04e8",
+      "address": "0x214e8e13b8114b567abae47dc839cc8adb6e04e8",
+      "icon": "tokens/eth/0x214e8e13b8114b567abae47dc839cc8adb6e04e8.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x218319D5429b078A1B5a1426703C5d9E1990edeD",
+      "address": "0x218319D5429b078A1B5a1426703C5d9E1990edeD",
+      "icon": "tokens/eth/0x218319D5429b078A1B5a1426703C5d9E1990edeD.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x21d486F6B7EB7B556978c5A0C96c79A08Eb841De",
+      "address": "0x21d486F6B7EB7B556978c5A0C96c79A08Eb841De",
+      "icon": "tokens/eth/0x21d486F6B7EB7B556978c5A0C96c79A08Eb841De.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x23593f7FB29cDC71dFB03B467853356d8F22c809",
+      "address": "0x23593f7FB29cDC71dFB03B467853356d8F22c809",
+      "icon": "tokens/eth/0x23593f7FB29cDC71dFB03B467853356d8F22c809.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x23593f7fb29cdc71dfb03b467853356d8f22c809",
+      "address": "0x23593f7fb29cdc71dfb03b467853356d8f22c809",
+      "icon": "tokens/eth/0x23593f7fb29cdc71dfb03b467853356d8f22c809.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x24196B54b6400049f69Fa7F92C3634dfa44689F0",
+      "address": "0x24196B54b6400049f69Fa7F92C3634dfa44689F0",
+      "icon": "tokens/eth/0x24196B54b6400049f69Fa7F92C3634dfa44689F0.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x24dA31e7BB182cb2cABfEF1d88db19C2AE1f5572",
+      "address": "0x24dA31e7BB182cb2cABfEF1d88db19C2AE1f5572",
+      "icon": "tokens/eth/0x24dA31e7BB182cb2cABfEF1d88db19C2AE1f5572.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x256D1fCE1b1221e8398f65F9B36033CE50B2D497",
+      "address": "0x256D1fCE1b1221e8398f65F9B36033CE50B2D497",
+      "icon": "tokens/eth/0x256D1fCE1b1221e8398f65F9B36033CE50B2D497.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x25D01B5b39E58843291586a5D8afdDf744BdEB13",
+      "address": "0x25D01B5b39E58843291586a5D8afdDf744BdEB13",
+      "icon": "tokens/eth/0x25D01B5b39E58843291586a5D8afdDf744BdEB13.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x25b91B317cb95232D49C829e555c2Fe695598Ff7",
+      "address": "0x25b91B317cb95232D49C829e555c2Fe695598Ff7",
+      "icon": "tokens/eth/0x25b91B317cb95232D49C829e555c2Fe695598Ff7.png"
+    },
+    {
+      "chainFolder": "eth",
+      "path": "eth/0x295e91FbAD63C05aF49a4912f37ab8F6Bf33e85E",
+      "address": "0x295e91FbAD63C05aF49a4912f37ab8F6Bf33e85E",
+      "icon": "tokens/eth/0x295e91FbAD63C05aF49a4912f37ab8F6Bf33e85E.png"
+    }
+  ]
+}

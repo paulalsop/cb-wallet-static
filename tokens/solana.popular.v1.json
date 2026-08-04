@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-solana-popular-v1",
+  "updatedAt": "2026-08-04T11:16:47.232Z",
+  "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+  "rule": "Per-chain tokens; never merge by symbol across chains.",
+  "tokens": [
+    {
+      "sortIndex": 0,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/native",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": null,
+      "addressKey": "native",
+      "symbol": "SOL",
+      "name": "Solana",
+      "decimals": 9,
+      "displayHint": "SOL · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/native.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 1,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "addressKey": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 2,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "addressKey": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 3,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "addressKey": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "decimals": 6,
+      "displayHint": "JUP · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 4,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "addressKey": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "symbol": "BONK",
+      "name": "Bonk",
+      "decimals": 5,
+      "displayHint": "BONK · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 5,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "addressKey": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "symbol": "WIF",
+      "name": "dogwifhat",
+      "decimals": 6,
+      "displayHint": "WIF · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 6,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "addressKey": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "symbol": "RAY",
+      "name": "Raydium",
+      "decimals": 6,
+      "displayHint": "RAY · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    },
+    {
+      "sortIndex": 7,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "family": "solana",
+      "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "addressKey": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "symbol": "PYUSD",
+      "name": "PayPal USD",
+      "decimals": 6,
+      "displayHint": "PYUSD · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ]
+    }
+  ]
+}

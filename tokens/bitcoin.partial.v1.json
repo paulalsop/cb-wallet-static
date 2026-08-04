@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "chainFolder": "bitcoin",
+  "updatedAt": "2026-08-04T11:03:24.952Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "bitcoin",
+      "path": "bitcoin/brc20/ordi",
+      "address": "ordi",
+      "icon": "tokens/bitcoin/brc20/ordi.png"
+    }
+  ]
+}

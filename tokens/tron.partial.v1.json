@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "chainFolder": "tron",
+  "updatedAt": "2026-08-04T11:03:23.642Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "tron",
+      "path": "tron",
+      "address": "tron",
+      "icon": "tokens/tron.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TA1BQnkoDp5eSCazhavx6rFCqFB4iod4n2",
+      "address": "TA1BQnkoDp5eSCazhavx6rFCqFB4iod4n2",
+      "icon": "tokens/tron/TA1BQnkoDp5eSCazhavx6rFCqFB4iod4n2.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TA6WG8Dodq5bcSwaprCVAVsg2heqP3zDVi",
+      "address": "TA6WG8Dodq5bcSwaprCVAVsg2heqP3zDVi",
+      "icon": "tokens/tron/TA6WG8Dodq5bcSwaprCVAVsg2heqP3zDVi.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TA8PAS2SgU5xm71pg6SZBHNRNqku2iovJV",
+      "address": "TA8PAS2SgU5xm71pg6SZBHNRNqku2iovJV",
+      "icon": "tokens/tron/TA8PAS2SgU5xm71pg6SZBHNRNqku2iovJV.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TAm3hbPdGdbVy1GDM81CmCZF1oR6RCspSi",
+      "address": "TAm3hbPdGdbVy1GDM81CmCZF1oR6RCspSi",
+      "icon": "tokens/tron/TAm3hbPdGdbVy1GDM81CmCZF1oR6RCspSi.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TAsXtEQppA41RaDZjqEQLdC1eYc8BmxViK",
+      "address": "TAsXtEQppA41RaDZjqEQLdC1eYc8BmxViK",
+      "icon": "tokens/tron/TAsXtEQppA41RaDZjqEQLdC1eYc8BmxViK.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBAa6N44t7wJaPBpAA18feY1WqPutpDdX8",
+      "address": "TBAa6N44t7wJaPBpAA18feY1WqPutpDdX8",
+      "icon": "tokens/tron/TBAa6N44t7wJaPBpAA18feY1WqPutpDdX8.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBDPA88yS1XrpTNaqL7j1fXoSEjAQ5YRVX",
+      "address": "TBDPA88yS1XrpTNaqL7j1fXoSEjAQ5YRVX",
+      "icon": "tokens/tron/TBDPA88yS1XrpTNaqL7j1fXoSEjAQ5YRVX.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBLgmXQAVHw1XFixYad1JKbXHpWtQmdFSL",
+      "address": "TBLgmXQAVHw1XFixYad1JKbXHpWtQmdFSL",
+      "icon": "tokens/tron/TBLgmXQAVHw1XFixYad1JKbXHpWtQmdFSL.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBRz7RmgnQWuEDCEZepb1onbPZj3oYZzPz",
+      "address": "TBRz7RmgnQWuEDCEZepb1onbPZj3oYZzPz",
+      "icon": "tokens/tron/TBRz7RmgnQWuEDCEZepb1onbPZj3oYZzPz.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBZV3dd9Mya6y1bDw4fKXvC5vegaGvzqWZ",
+      "address": "TBZV3dd9Mya6y1bDw4fKXvC5vegaGvzqWZ",
+      "icon": "tokens/tron/TBZV3dd9Mya6y1bDw4fKXvC5vegaGvzqWZ.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBtLczumSGCfDyP9ytbTxUx1YuJkdzADQK",
+      "address": "TBtLczumSGCfDyP9ytbTxUx1YuJkdzADQK",
+      "icon": "tokens/tron/TBtLczumSGCfDyP9ytbTxUx1YuJkdzADQK.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TBuR6gKF4ad7dVzLBesstQYyfUU1QeQE2N",
+      "address": "TBuR6gKF4ad7dVzLBesstQYyfUU1QeQE2N",
+      "icon": "tokens/tron/TBuR6gKF4ad7dVzLBesstQYyfUU1QeQE2N.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TC6TMXKpDA6343kyTEWqueXTn4A1QTean1",
+      "address": "TC6TMXKpDA6343kyTEWqueXTn4A1QTean1",
+      "icon": "tokens/tron/TC6TMXKpDA6343kyTEWqueXTn4A1QTean1.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCCZALo8DeNSXXjsabYF9EeoXjWezQhF4o",
+      "address": "TCCZALo8DeNSXXjsabYF9EeoXjWezQhF4o",
+      "icon": "tokens/tron/TCCZALo8DeNSXXjsabYF9EeoXjWezQhF4o.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCDnFGhtPbwAssR5gGvr4fvYofnMniVTc4",
+      "address": "TCDnFGhtPbwAssR5gGvr4fvYofnMniVTc4",
+      "icon": "tokens/tron/TCDnFGhtPbwAssR5gGvr4fvYofnMniVTc4.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCLRuTc3Qymz9RpHzkLNrjeBTbgsq9n44u",
+      "address": "TCLRuTc3Qymz9RpHzkLNrjeBTbgsq9n44u",
+      "icon": "tokens/tron/TCLRuTc3Qymz9RpHzkLNrjeBTbgsq9n44u.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCPyoHdtSafYNFqD5iUxs8r6fYPAE3TdLz",
+      "address": "TCPyoHdtSafYNFqD5iUxs8r6fYPAE3TdLz",
+      "icon": "tokens/tron/TCPyoHdtSafYNFqD5iUxs8r6fYPAE3TdLz.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCfochK7Ha82zLhsTjW5NuWAo26Rgroy6n",
+      "address": "TCfochK7Ha82zLhsTjW5NuWAo26Rgroy6n",
+      "icon": "tokens/tron/TCfochK7Ha82zLhsTjW5NuWAo26Rgroy6n.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TChzhcVdWnvaYNQb6geeXtfJtQN5KsX9pM",
+      "address": "TChzhcVdWnvaYNQb6geeXtfJtQN5KsX9pM",
+      "icon": "tokens/tron/TChzhcVdWnvaYNQb6geeXtfJtQN5KsX9pM.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCozMKHZRWyqtmdudgFfEUoUiaWEBQovZe",
+      "address": "TCozMKHZRWyqtmdudgFfEUoUiaWEBQovZe",
+      "icon": "tokens/tron/TCozMKHZRWyqtmdudgFfEUoUiaWEBQovZe.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TCr4nSpYdPhe9JbogBoahp7tZnbv4vziE8",
+      "address": "TCr4nSpYdPhe9JbogBoahp7tZnbv4vziE8",
+      "icon": "tokens/tron/TCr4nSpYdPhe9JbogBoahp7tZnbv4vziE8.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TD886JUo3eVCfPBf6W8h7xJKGSPx2yELBS",
+      "address": "TD886JUo3eVCfPBf6W8h7xJKGSPx2yELBS",
+      "icon": "tokens/tron/TD886JUo3eVCfPBf6W8h7xJKGSPx2yELBS.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TDG8qyj6dKe8x5H7q9Ed2ULSi77H8dzK39",
+      "address": "TDG8qyj6dKe8x5H7q9Ed2ULSi77H8dzK39",
+      "icon": "tokens/tron/TDG8qyj6dKe8x5H7q9Ed2ULSi77H8dzK39.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TDQMR81tw7pHr3a1dCSMthPNfNRVReZQY2",
+      "address": "TDQMR81tw7pHr3a1dCSMthPNfNRVReZQY2",
+      "icon": "tokens/tron/TDQMR81tw7pHr3a1dCSMthPNfNRVReZQY2.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TDUCxQpMZGWakRiHoE8hkuLyrfUmNg9od3",
+      "address": "TDUCxQpMZGWakRiHoE8hkuLyrfUmNg9od3",
+      "icon": "tokens/tron/TDUCxQpMZGWakRiHoE8hkuLyrfUmNg9od3.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TDUZZGMmrcAJDNiZDzyQ2LHbrYQzMqKCtx",
+      "address": "TDUZZGMmrcAJDNiZDzyQ2LHbrYQzMqKCtx",
+      "icon": "tokens/tron/TDUZZGMmrcAJDNiZDzyQ2LHbrYQzMqKCtx.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TDf3LqWZWpbNZSqgUGB3jLC6M9Y8b8LpHW",
+      "address": "TDf3LqWZWpbNZSqgUGB3jLC6M9Y8b8LpHW",
+      "icon": "tokens/tron/TDf3LqWZWpbNZSqgUGB3jLC6M9Y8b8LpHW.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TDxbHVxtpDoJJ5bnG6xJHc1ezJK5Zuuw2S",
+      "address": "TDxbHVxtpDoJJ5bnG6xJHc1ezJK5Zuuw2S",
+      "icon": "tokens/tron/TDxbHVxtpDoJJ5bnG6xJHc1ezJK5Zuuw2S.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TF13q3y1LK3ftkJr3nuwD9oUGiZsLtHvqa",
+      "address": "TF13q3y1LK3ftkJr3nuwD9oUGiZsLtHvqa",
+      "icon": "tokens/tron/TF13q3y1LK3ftkJr3nuwD9oUGiZsLtHvqa.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFFKmKpcXbUNXdEqTP1raJPyWB4wZUh7Wj",
+      "address": "TFFKmKpcXbUNXdEqTP1raJPyWB4wZUh7Wj",
+      "icon": "tokens/tron/TFFKmKpcXbUNXdEqTP1raJPyWB4wZUh7Wj.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFSMYLYGNPPcZdSfUrZtesxP8qNgpoVRTY",
+      "address": "TFSMYLYGNPPcZdSfUrZtesxP8qNgpoVRTY",
+      "icon": "tokens/tron/TFSMYLYGNPPcZdSfUrZtesxP8qNgpoVRTY.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFYniCnw69qRTiZfPR43PhKWgvsEqnmvjQ",
+      "address": "TFYniCnw69qRTiZfPR43PhKWgvsEqnmvjQ",
+      "icon": "tokens/tron/TFYniCnw69qRTiZfPR43PhKWgvsEqnmvjQ.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFaF44hGufaWZYdkNrdPmjjnLJ4DTZqh8X",
+      "address": "TFaF44hGufaWZYdkNrdPmjjnLJ4DTZqh8X",
+      "icon": "tokens/tron/TFaF44hGufaWZYdkNrdPmjjnLJ4DTZqh8X.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFrZRLFUw7e16XhgeNLTkGvrTm7rKWYcNv",
+      "address": "TFrZRLFUw7e16XhgeNLTkGvrTm7rKWYcNv",
+      "icon": "tokens/tron/TFrZRLFUw7e16XhgeNLTkGvrTm7rKWYcNv.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFuFzgqJ48qumqojhSTXkUnP3wNgKd8n8c",
+      "address": "TFuFzgqJ48qumqojhSTXkUnP3wNgKd8n8c",
+      "icon": "tokens/tron/TFuFzgqJ48qumqojhSTXkUnP3wNgKd8n8c.png"
+    },
+    {
+      "chainFolder": "tron",
+      "path": "tron/TFwmrUs7fb3hGn9jvDWDpNdJy3sbigS1uu",
+      "address": "TFwmrUs7fb3hGn9jvDWDpNdJy3sbigS1uu",
+      "icon": "tokens/tron/TFwmrUs7fb3hGn9jvDWDpNdJy3sbigS1uu.png"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "chainFolder": "bsc",
+  "updatedAt": "2026-08-04T11:01:23.713Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0X3A91AE428251CD0FFAD64D591B6B7C421B7C11F4",
+      "address": "0X3A91AE428251CD0FFAD64D591B6B7C421B7C11F4",
+      "icon": "tokens/bsc/0X3A91AE428251CD0FFAD64D591B6B7C421B7C11F4.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0X4B41CA61F5FBE12DDBA38BC2D8BACC5F68FD491F",
+      "address": "0X4B41CA61F5FBE12DDBA38BC2D8BACC5F68FD491F",
+      "icon": "tokens/bsc/0X4B41CA61F5FBE12DDBA38BC2D8BACC5F68FD491F.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0X97E86DD0A7848438F9C093D841748710E126D397",
+      "address": "0X97E86DD0A7848438F9C093D841748710E126D397",
+      "icon": "tokens/bsc/0X97E86DD0A7848438F9C093D841748710E126D397.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0001368Dfd0B9536f6cbb420f0cfebE53Bbf11f8",
+      "address": "0x0001368Dfd0B9536f6cbb420f0cfebE53Bbf11f8",
+      "icon": "tokens/bsc/0x0001368Dfd0B9536f6cbb420f0cfebE53Bbf11f8.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0009Ae5a69B037eA74A900783fab457fa605ae5d",
+      "address": "0x0009Ae5a69B037eA74A900783fab457fa605ae5d",
+      "icon": "tokens/bsc/0x0009Ae5a69B037eA74A900783fab457fa605ae5d.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0009bcF100bd84F3a7A3D61f9c4CB05A816857c9",
+      "address": "0x0009bcF100bd84F3a7A3D61f9c4CB05A816857c9",
+      "icon": "tokens/bsc/0x0009bcF100bd84F3a7A3D61f9c4CB05A816857c9.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x001609504dDc1B566522655E86820eF894AeeD5d",
+      "address": "0x001609504dDc1B566522655E86820eF894AeeD5d",
+      "icon": "tokens/bsc/0x001609504dDc1B566522655E86820eF894AeeD5d.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0019450b0FB021ad2e9f7928101B171272cd537C",
+      "address": "0x0019450b0FB021ad2e9f7928101B171272cd537C",
+      "icon": "tokens/bsc/0x0019450b0FB021ad2e9f7928101B171272cd537C.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x001f13f03E467Eb4a12fd77dA8e7882A9bdD7862",
+      "address": "0x001f13f03E467Eb4a12fd77dA8e7882A9bdD7862",
+      "icon": "tokens/bsc/0x001f13f03E467Eb4a12fd77dA8e7882A9bdD7862.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x002c200A5F72D051d4C890eccEe635a197A1fC82",
+      "address": "0x002c200A5F72D051d4C890eccEe635a197A1fC82",
+      "icon": "tokens/bsc/0x002c200A5F72D051d4C890eccEe635a197A1fC82.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00383423Ca5e567b3B39Cc3E07D6af6700b4348c",
+      "address": "0x00383423Ca5e567b3B39Cc3E07D6af6700b4348c",
+      "icon": "tokens/bsc/0x00383423Ca5e567b3B39Cc3E07D6af6700b4348c.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x003fAb51Ba9aE9518C5ACAEb53134ba4D4516B79",
+      "address": "0x003fAb51Ba9aE9518C5ACAEb53134ba4D4516B79",
+      "icon": "tokens/bsc/0x003fAb51Ba9aE9518C5ACAEb53134ba4D4516B79.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x005780Bc7706DCAF46C7BE87452432a9Ec1F5d5F",
+      "address": "0x005780Bc7706DCAF46C7BE87452432a9Ec1F5d5F",
+      "icon": "tokens/bsc/0x005780Bc7706DCAF46C7BE87452432a9Ec1F5d5F.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0068C4fAB6933a713eF97eeFe78f359F9257e93E",
+      "address": "0x0068C4fAB6933a713eF97eeFe78f359F9257e93E",
+      "icon": "tokens/bsc/0x0068C4fAB6933a713eF97eeFe78f359F9257e93E.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56",
+      "address": "0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56",
+      "icon": "tokens/bsc/0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x008105D3D143774Dd325F59f3e166e2D88888888",
+      "address": "0x008105D3D143774Dd325F59f3e166e2D88888888",
+      "icon": "tokens/bsc/0x008105D3D143774Dd325F59f3e166e2D88888888.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00998d97c22B564d1dAF39d493e74C21D83fffbA",
+      "address": "0x00998d97c22B564d1dAF39d493e74C21D83fffbA",
+      "icon": "tokens/bsc/0x00998d97c22B564d1dAF39d493e74C21D83fffbA.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x009F616190B5EF96665dc60df9038272Fd6F8867",
+      "address": "0x009F616190B5EF96665dc60df9038272Fd6F8867",
+      "icon": "tokens/bsc/0x009F616190B5EF96665dc60df9038272Fd6F8867.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x009cF7bC57584b7998236eff51b98A168DceA9B0",
+      "address": "0x009cF7bC57584b7998236eff51b98A168DceA9B0",
+      "icon": "tokens/bsc/0x009cF7bC57584b7998236eff51b98A168DceA9B0.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00AD418CA33dc9c49592357086B88a939b293BB5",
+      "address": "0x00AD418CA33dc9c49592357086B88a939b293BB5",
+      "icon": "tokens/bsc/0x00AD418CA33dc9c49592357086B88a939b293BB5.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00C109655351ab19C81d999Fa1F1dA35384e51fD",
+      "address": "0x00C109655351ab19C81d999Fa1F1dA35384e51fD",
+      "icon": "tokens/bsc/0x00C109655351ab19C81d999Fa1F1dA35384e51fD.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00EbE028966B8952606f5b6e5d1d22D3e4999999",
+      "address": "0x00EbE028966B8952606f5b6e5d1d22D3e4999999",
+      "icon": "tokens/bsc/0x00EbE028966B8952606f5b6e5d1d22D3e4999999.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00fC914BBc844f855ffD671C25b6609FA2b474BA",
+      "address": "0x00fC914BBc844f855ffD671C25b6609FA2b474BA",
+      "icon": "tokens/bsc/0x00fC914BBc844f855ffD671C25b6609FA2b474BA.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x00fe3ba812297ccC9bE96619Da249D209e379e98",
+      "address": "0x00fe3ba812297ccC9bE96619Da249D209e379e98",
+      "icon": "tokens/bsc/0x00fe3ba812297ccC9bE96619Da249D209e379e98.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01074F2f213ebd00587a773e461B5BC7F7B04C3B",
+      "address": "0x01074F2f213ebd00587a773e461B5BC7F7B04C3B",
+      "icon": "tokens/bsc/0x01074F2f213ebd00587a773e461B5BC7F7B04C3B.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0173295183685f27c84db046b5f0bea3e683c24b",
+      "address": "0x0173295183685f27c84db046b5f0bea3e683c24b",
+      "icon": "tokens/bsc/0x0173295183685f27c84db046b5f0bea3e683c24b.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x017c9962B6794b2e9FF34c83D139ED273ADA8cE0",
+      "address": "0x017c9962B6794b2e9FF34c83D139ED273ADA8cE0",
+      "icon": "tokens/bsc/0x017c9962B6794b2e9FF34c83D139ED273ADA8cE0.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0187fEB4166265654252CBcB49579a018309339F",
+      "address": "0x0187fEB4166265654252CBcB49579a018309339F",
+      "icon": "tokens/bsc/0x0187fEB4166265654252CBcB49579a018309339F.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x018F49822d593f88843777e0956Af74C87012219",
+      "address": "0x018F49822d593f88843777e0956Af74C87012219",
+      "icon": "tokens/bsc/0x018F49822d593f88843777e0956Af74C87012219.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x019601ee0AA825Ec2A53C413924BE30D7eE1e573",
+      "address": "0x019601ee0AA825Ec2A53C413924BE30D7eE1e573",
+      "icon": "tokens/bsc/0x019601ee0AA825Ec2A53C413924BE30D7eE1e573.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x0196a3A38B7A56aBc40D30218EeA4190ed57a4F1",
+      "address": "0x0196a3A38B7A56aBc40D30218EeA4190ed57a4F1",
+      "icon": "tokens/bsc/0x0196a3A38B7A56aBc40D30218EeA4190ed57a4F1.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01B4e14d83BC5A0C8886c64Cf4f02ce8754319Ff",
+      "address": "0x01B4e14d83BC5A0C8886c64Cf4f02ce8754319Ff",
+      "icon": "tokens/bsc/0x01B4e14d83BC5A0C8886c64Cf4f02ce8754319Ff.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01B7b50221523342591933b1b424ee14F50f4994",
+      "address": "0x01B7b50221523342591933b1b424ee14F50f4994",
+      "icon": "tokens/bsc/0x01B7b50221523342591933b1b424ee14F50f4994.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01D56D92Be56507D1aa4Ff422c006779269F4871",
+      "address": "0x01D56D92Be56507D1aa4Ff422c006779269F4871",
+      "icon": "tokens/bsc/0x01D56D92Be56507D1aa4Ff422c006779269F4871.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01EDa3Fa3d80021b85aEa838eAE6aC2a373e201C",
+      "address": "0x01EDa3Fa3d80021b85aEa838eAE6aC2a373e201C",
+      "icon": "tokens/bsc/0x01EDa3Fa3d80021b85aEa838eAE6aC2a373e201C.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01aD5C8Ca6B2470CbC81c398336F83AAE22E4471",
+      "address": "0x01aD5C8Ca6B2470CbC81c398336F83AAE22E4471",
+      "icon": "tokens/bsc/0x01aD5C8Ca6B2470CbC81c398336F83AAE22E4471.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01cF962874FeB88FA2B4F8faF6DcD8c8072a0cFD",
+      "address": "0x01cF962874FeB88FA2B4F8faF6DcD8c8072a0cFD",
+      "icon": "tokens/bsc/0x01cF962874FeB88FA2B4F8faF6DcD8c8072a0cFD.png"
+    },
+    {
+      "chainFolder": "bsc",
+      "path": "bsc/0x01dAae426946A93681525bB97496A3A6279faC5D",
+      "address": "0x01dAae426946A93681525bB97496A3A6279faC5D",
+      "icon": "tokens/bsc/0x01dAae426946A93681525bB97496A3A6279faC5D.png"
+    }
+  ]
+}

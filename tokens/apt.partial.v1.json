@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "chainFolder": "apt",
+  "updatedAt": "2026-08-04T11:03:26.352Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "apt",
+      "path": "apt/0x1",
+      "address": "0x1",
+      "icon": "tokens/apt/0x1.png"
+    }
+  ]
+}

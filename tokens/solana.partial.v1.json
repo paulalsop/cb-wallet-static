@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "chainFolder": "solana",
+  "updatedAt": "2026-08-04T11:01:52.494Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "solana",
+      "path": "solana/2j5xsGiLtsB2UdjJGYyc3pi6rxLbz6dZaDBHKg7oSqhB",
+      "address": "2j5xsGiLtsB2UdjJGYyc3pi6rxLbz6dZaDBHKg7oSqhB",
+      "icon": "tokens/solana/2j5xsGiLtsB2UdjJGYyc3pi6rxLbz6dZaDBHKg7oSqhB.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/4C9SPSemUPKUyL1a3jRqpe2mvnAAAUCJNrYquWP4AQfi",
+      "address": "4C9SPSemUPKUyL1a3jRqpe2mvnAAAUCJNrYquWP4AQfi",
+      "icon": "tokens/solana/4C9SPSemUPKUyL1a3jRqpe2mvnAAAUCJNrYquWP4AQfi.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/5R2wQvZrfw7fTQhQzsaKht92wz4Tv1mE58LTVpgkTHwS",
+      "address": "5R2wQvZrfw7fTQhQzsaKht92wz4Tv1mE58LTVpgkTHwS",
+      "icon": "tokens/solana/5R2wQvZrfw7fTQhQzsaKht92wz4Tv1mE58LTVpgkTHwS.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/5Z7bWSvcxVeUkroSypFW3Tsw7vPoJUcCxhTFNenLxNoR",
+      "address": "5Z7bWSvcxVeUkroSypFW3Tsw7vPoJUcCxhTFNenLxNoR",
+      "icon": "tokens/solana/5Z7bWSvcxVeUkroSypFW3Tsw7vPoJUcCxhTFNenLxNoR.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/5jmBGMEW1xBMWdkZVXo8pu4BKsewgpHVsdV7GkvViBqK",
+      "address": "5jmBGMEW1xBMWdkZVXo8pu4BKsewgpHVsdV7GkvViBqK",
+      "icon": "tokens/solana/5jmBGMEW1xBMWdkZVXo8pu4BKsewgpHVsdV7GkvViBqK.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/6kBnPH2gqEVszjdm8k7MFTfktp3wxSkV97bWBPZwRzCT",
+      "address": "6kBnPH2gqEVszjdm8k7MFTfktp3wxSkV97bWBPZwRzCT",
+      "icon": "tokens/solana/6kBnPH2gqEVszjdm8k7MFTfktp3wxSkV97bWBPZwRzCT.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/6tCvMBJiGSsDQghZ54HqaizvydBH6vaugxuxTE7wKUG8",
+      "address": "6tCvMBJiGSsDQghZ54HqaizvydBH6vaugxuxTE7wKUG8",
+      "icon": "tokens/solana/6tCvMBJiGSsDQghZ54HqaizvydBH6vaugxuxTE7wKUG8.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/7ruaCTXp7p2jV3guXez74N7yyWv9Sae8NzLi2ZztmTjd",
+      "address": "7ruaCTXp7p2jV3guXez74N7yyWv9Sae8NzLi2ZztmTjd",
+      "icon": "tokens/solana/7ruaCTXp7p2jV3guXez74N7yyWv9Sae8NzLi2ZztmTjd.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/8tkLbkdRdpdJHqCZhVtz2mfkrAMz382q7VtsjGhFqXer",
+      "address": "8tkLbkdRdpdJHqCZhVtz2mfkrAMz382q7VtsjGhFqXer",
+      "icon": "tokens/solana/8tkLbkdRdpdJHqCZhVtz2mfkrAMz382q7VtsjGhFqXer.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6",
+      "address": "ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6",
+      "icon": "tokens/solana/ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/AHT1yynTv45s3P3KrRfQCVMHckdHeMVA3fteEg34xt9y",
+      "address": "AHT1yynTv45s3P3KrRfQCVMHckdHeMVA3fteEg34xt9y",
+      "icon": "tokens/solana/AHT1yynTv45s3P3KrRfQCVMHckdHeMVA3fteEg34xt9y.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/ALe5WhLpdcg3qVcFiAEBor2PALFa5hwfCc55SccsxSiz",
+      "address": "ALe5WhLpdcg3qVcFiAEBor2PALFa5hwfCc55SccsxSiz",
+      "icon": "tokens/solana/ALe5WhLpdcg3qVcFiAEBor2PALFa5hwfCc55SccsxSiz.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/ANGMffGrDhRuXSCNC95Ek5mqrVjDYavvg5nnCpWgGXBj",
+      "address": "ANGMffGrDhRuXSCNC95Ek5mqrVjDYavvg5nnCpWgGXBj",
+      "icon": "tokens/solana/ANGMffGrDhRuXSCNC95Ek5mqrVjDYavvg5nnCpWgGXBj.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/AUT1gfMZw37wMMQqAxk89nfpjZpEEf2XSoBUd8V5ydnS",
+      "address": "AUT1gfMZw37wMMQqAxk89nfpjZpEEf2XSoBUd8V5ydnS",
+      "icon": "tokens/solana/AUT1gfMZw37wMMQqAxk89nfpjZpEEf2XSoBUd8V5ydnS.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/AjQAzNbvJwoQCM8ztvAdjxhwLK4ZhWQ4JcyCV2GeLqUY",
+      "address": "AjQAzNbvJwoQCM8ztvAdjxhwLK4ZhWQ4JcyCV2GeLqUY",
+      "icon": "tokens/solana/AjQAzNbvJwoQCM8ztvAdjxhwLK4ZhWQ4JcyCV2GeLqUY.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/Am5hwEp5VBqXoeE5pRU47RTW6gYeFQ6ahi1j4ZVVeL2V",
+      "address": "Am5hwEp5VBqXoeE5pRU47RTW6gYeFQ6ahi1j4ZVVeL2V",
+      "icon": "tokens/solana/Am5hwEp5VBqXoeE5pRU47RTW6gYeFQ6ahi1j4ZVVeL2V.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/BLWtTijgVBruDhRndfyEJx6W3Vw4VUDb1dTsehT8VvvY",
+      "address": "BLWtTijgVBruDhRndfyEJx6W3Vw4VUDb1dTsehT8VvvY",
+      "icon": "tokens/solana/BLWtTijgVBruDhRndfyEJx6W3Vw4VUDb1dTsehT8VvvY.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/C8kPRR4U9Gzu4mgHgVyDmdvSCHYjSz2k7h2FWKWdJaBo",
+      "address": "C8kPRR4U9Gzu4mgHgVyDmdvSCHYjSz2k7h2FWKWdJaBo",
+      "icon": "tokens/solana/C8kPRR4U9Gzu4mgHgVyDmdvSCHYjSz2k7h2FWKWdJaBo.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/CBSXCSVp3QEDU4jU8B2ivugwLhoJEuNvUD1vTZYgAxE9",
+      "address": "CBSXCSVp3QEDU4jU8B2ivugwLhoJEuNvUD1vTZYgAxE9",
+      "icon": "tokens/solana/CBSXCSVp3QEDU4jU8B2ivugwLhoJEuNvUD1vTZYgAxE9.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/CFxNkydnRsrp4hCaagFYFQEVAyK4yRsTbrEbGs7rYR2K",
+      "address": "CFxNkydnRsrp4hCaagFYFQEVAyK4yRsTbrEbGs7rYR2K",
+      "icon": "tokens/solana/CFxNkydnRsrp4hCaagFYFQEVAyK4yRsTbrEbGs7rYR2K.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/EM9LA5wMVxD1hmEUNSWbqSEEiAdeLQhj9yYcnhXFweDW",
+      "address": "EM9LA5wMVxD1hmEUNSWbqSEEiAdeLQhj9yYcnhXFweDW",
+      "icon": "tokens/solana/EM9LA5wMVxD1hmEUNSWbqSEEiAdeLQhj9yYcnhXFweDW.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/EgpStTNJURCQBGJAeJXe8iA2LBp9iEgRkWu1ccokPAbz",
+      "address": "EgpStTNJURCQBGJAeJXe8iA2LBp9iEgRkWu1ccokPAbz",
+      "icon": "tokens/solana/EgpStTNJURCQBGJAeJXe8iA2LBp9iEgRkWu1ccokPAbz.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/EzgfrTjgFyHGaU5BEBRETyfawt66bAYqJvcryWuJtQ5w",
+      "address": "EzgfrTjgFyHGaU5BEBRETyfawt66bAYqJvcryWuJtQ5w",
+      "icon": "tokens/solana/EzgfrTjgFyHGaU5BEBRETyfawt66bAYqJvcryWuJtQ5w.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/FHH1w2C7TvijQgQMVFqKbNwnNBoPkamvZwhK9FoXTo7w",
+      "address": "FHH1w2C7TvijQgQMVFqKbNwnNBoPkamvZwhK9FoXTo7w",
+      "icon": "tokens/solana/FHH1w2C7TvijQgQMVFqKbNwnNBoPkamvZwhK9FoXTo7w.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/FZVTWqHifiTAozipkCz5mtERSZQRPg9JV1GZFXXetRij",
+      "address": "FZVTWqHifiTAozipkCz5mtERSZQRPg9JV1GZFXXetRij",
+      "icon": "tokens/solana/FZVTWqHifiTAozipkCz5mtERSZQRPg9JV1GZFXXetRij.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/Fcc9VgmUHZoGewBqj7PfwagjRkLXUjUniD3wRErMm9XV",
+      "address": "Fcc9VgmUHZoGewBqj7PfwagjRkLXUjUniD3wRErMm9XV",
+      "icon": "tokens/solana/Fcc9VgmUHZoGewBqj7PfwagjRkLXUjUniD3wRErMm9XV.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/GmsB74pKYXKAFXvPcMCwy6gQDMGXJaHoR5w6BbneGxFq",
+      "address": "GmsB74pKYXKAFXvPcMCwy6gQDMGXJaHoR5w6BbneGxFq",
+      "icon": "tokens/solana/GmsB74pKYXKAFXvPcMCwy6gQDMGXJaHoR5w6BbneGxFq.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/GohbFhZUYWNkQe3qtDHrBQhDT2rE5D2nJpfv51BJp6DV",
+      "address": "GohbFhZUYWNkQe3qtDHrBQhDT2rE5D2nJpfv51BJp6DV",
+      "icon": "tokens/solana/GohbFhZUYWNkQe3qtDHrBQhDT2rE5D2nJpfv51BJp6DV.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/Gu6yaN9RC8SogDcCkCpjAzjkVAL2vUMRYPP5dMaMeyaM",
+      "address": "Gu6yaN9RC8SogDcCkCpjAzjkVAL2vUMRYPP5dMaMeyaM",
+      "icon": "tokens/solana/Gu6yaN9RC8SogDcCkCpjAzjkVAL2vUMRYPP5dMaMeyaM.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/iCDuZuH2KSQa6AK4HwGtsksmhXuHGKL5MVeYtM71phn",
+      "address": "iCDuZuH2KSQa6AK4HwGtsksmhXuHGKL5MVeYtM71phn",
+      "icon": "tokens/solana/iCDuZuH2KSQa6AK4HwGtsksmhXuHGKL5MVeYtM71phn.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/paiiRLHDZdvZ5iqsc8Xmn9YjioCtki4wvQex2e8xRY9",
+      "address": "paiiRLHDZdvZ5iqsc8Xmn9YjioCtki4wvQex2e8xRY9",
+      "icon": "tokens/solana/paiiRLHDZdvZ5iqsc8Xmn9YjioCtki4wvQex2e8xRY9.png"
+    },
+    {
+      "chainFolder": "solana",
+      "path": "solana/wa3sCvwDWBUsvVrgPHhYBNpVWDSVc6Mdk5GEXuNpPLg",
+      "address": "wa3sCvwDWBUsvVrgPHhYBNpVWDSVc6Mdk5GEXuNpPLg",
+      "icon": "tokens/solana/wa3sCvwDWBUsvVrgPHhYBNpVWDSVc6Mdk5GEXuNpPLg.png"
+    }
+  ]
+}

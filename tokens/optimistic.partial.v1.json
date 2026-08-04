@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "chainFolder": "optimistic",
+  "updatedAt": "2026-08-04T11:03:25.742Z",
+  "note": "Sparse import; not a complete token list. Review license before shipping.",
+  "tokens": [
+    {
+      "chainFolder": "optimistic",
+      "path": "optimistic/0xcE2a13c2B6ab6F15B7AEEc272F65D4d8b11e4619",
+      "address": "0xcE2a13c2B6ab6F15B7AEEc272F65D4d8b11e4619",
+      "icon": "tokens/optimistic/0xcE2a13c2B6ab6F15B7AEEc272F65D4d8b11e4619.png"
+    }
+  ]
+}
