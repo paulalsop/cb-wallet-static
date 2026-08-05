@@ -56,6 +56,7 @@ node scripts/assert-sort.mjs
 1. 推送 `main`
 2. 仓 Settings → Pages → Source: **Deploy from a branch** → `main` / `/ (root)`（无需 Actions；当前 PAT 无 workflow 权限）
 3. 打开：`https://paulalsop.github.io/cb-wallet-static/manifest.v1.json`
+4. 自定义域名（已配 DNS）：`static.mo.fit` → 在 Pages Custom domain 填同一主机名；验收 `https://static.mo.fit/manifest.v1.json`
 4. 若绑自定义域名，改 `manifest.iconBase` 与 `CNAME` 后重算 sha 再提交
 
 ## 管理后台写仓权限

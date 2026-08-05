@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-04T11:19:58.797927Z",
+  "publishedAt": "2026-08-05T10:30:58.553534Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -31,5 +31,5 @@
       "sha256": "a1640c24323b619dc3dfa46d0c92be6178cb7508e4338fe8e570c03125b50291"
     }
   },
-  "iconBase": "https://paulalsop.github.io/cb-wallet-static/icons/"
+  "iconBase": "https://static.mo.fit/icons/"
 }
