@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-base-enriched-v1",
+  "updatedAt": "2026-08-06T05:09:32.117Z",
+  "caip2": "eip155:8453",
+  "chainName": "Base",
+  "rule": "Enriched from partial icons + trustwallet info.json. Primary key tokenKey.",
+  "tokenCount": 0,
+  "tokens": []
+}

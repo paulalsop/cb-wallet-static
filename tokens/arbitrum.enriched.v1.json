@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-arbitrum-enriched-v1",
+  "updatedAt": "2026-08-06T05:09:18.421Z",
+  "caip2": "eip155:42161",
+  "chainName": "Arbitrum One",
+  "rule": "Enriched from partial icons + trustwallet info.json. Primary key tokenKey.",
+  "tokenCount": 0,
+  "tokens": []
+}

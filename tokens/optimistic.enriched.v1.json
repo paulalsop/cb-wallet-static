@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-optimistic-enriched-v1",
+  "updatedAt": "2026-08-06T05:12:03.503Z",
+  "caip2": "eip155:10",
+  "chainName": "Optimistic Ethereum",
+  "rule": "Enriched from partial icons + trustwallet info.json. Primary key tokenKey.",
+  "tokenCount": 0,
+  "tokens": []
+}

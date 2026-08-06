@@ -36,8 +36,13 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 重建精选目录：
 
 ```bash
+# 从公开 token list 扩量（每链默认 60，含名称/合约/链）
+node scripts/import-public-tokenlists.mjs --limit 60
+# 汇总可查询 catalog + by-chain + browse 数据
 node scripts/build-token-catalog.mjs
 ```
+
+说明：`*.partial.v1.json` 只有图标路径、**没有 name**，不会直接进 browse；要上架必须有 `tokenKey / symbol / name / caip2`。
 
 ## 从公开 networklist 导入
 
