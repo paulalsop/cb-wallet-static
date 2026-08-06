@@ -1,6 +1,6 @@
 # Token catalog (queryable)
 
-Updated: `2026-08-06T05:13:51.877Z`
+Updated: `2026-08-06T05:17:04.361Z`
 
 Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as one asset across chains.
 

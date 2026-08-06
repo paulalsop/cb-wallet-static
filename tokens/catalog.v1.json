@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogId": "cb-wallet-tokens-catalog-v1",
-  "updatedAt": "2026-08-06T05:13:51.877Z",
+  "updatedAt": "2026-08-06T05:17:04.361Z",
   "rule": "Primary key is tokenKey (caip2 + asset). Never merge or look up by symbol alone. displayHint always shows chain.",
   "tokenCount": 425,
   "tokens": [
@@ -1656,7 +1656,7 @@
       "decimals": 18,
       "displayHint": "ETH · Ethereum Mainnet · eip155:1",
       "icon": {
-        "default": "tokens/eth.png"
+        "default": "chains/eip155-1.png"
       },
       "status": "active",
       "enabled": true,

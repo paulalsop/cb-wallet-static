@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogId": "cb-wallet-tokens-by-chain-v1",
-  "updatedAt": "2026-08-06T05:13:51.877Z",
+  "updatedAt": "2026-08-06T05:17:04.361Z",
   "rule": "Query tokens by caip2 first. Symbol is not unique across chains.",
   "chainCount": 10,
   "tokenCount": 425,
@@ -1168,7 +1168,7 @@
           "decimals": 18,
           "displayHint": "ETH · Ethereum Mainnet · eip155:1",
           "icon": {
-            "default": "tokens/eth.png"
+            "default": "chains/eip155-1.png"
           },
           "tags": [
             "native",

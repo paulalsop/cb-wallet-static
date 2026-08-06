@@ -31,7 +31,7 @@
       "name": "Ether",
       "decimals": 18,
       "displayHint": "ETH · Ethereum Mainnet · eip155:1",
-      "icon": { "default": "tokens/eth.png" },
+      "icon": { "default": "chains/eip155-1.png" },
       "status": "active",
       "enabled": true,
       "tags": ["native", "ethereum"]
