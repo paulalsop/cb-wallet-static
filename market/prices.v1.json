@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "fetchedAt": "2026-08-06T09:08:33.338Z",
+  "source": "okx",
+  "bySymbol": {
+    "BTC": {
+      "priceUsd": 64800.6,
+      "changePct24h": 1.014185502727979
+    },
+    "BNB": {
+      "priceUsd": 594.6,
+      "changePct24h": -0.8338892595063376
+    },
+    "DOT": {
+      "priceUsd": 0.832,
+      "changePct24h": -2.7810236036457168
+    },
+    "POL": {
+      "priceUsd": 0.07573,
+      "changePct24h": 0.4776436247843959
+    },
+    "TRX": {
+      "priceUsd": 0.32726,
+      "changePct24h": -0.3471376370280237
+    },
+    "SOL": {
+      "priceUsd": 73.78,
+      "changePct24h": -0.4184100418410073
+    },
+    "ETH": {
+      "priceUsd": 1911.29,
+      "changePct24h": 2.151755984671544
+    }
+  },
+  "byAssetId": {}
+}
