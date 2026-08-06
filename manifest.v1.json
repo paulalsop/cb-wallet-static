@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-06T04:17:32.478Z",
+  "publishedAt": "2026-08-06T05:17:04.361Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -32,11 +32,11 @@
     },
     "tokens.catalog": {
       "path": "tokens/catalog.v1.json",
-      "sha256": "bba46f90d78a76b03029b3b3ae9d5d2b3a36c59a7dd6bb4633372f763162e39f"
+      "sha256": "000ef9991ab97d6f11985e7270e97b7bf3df667252dd007d4c2d1f1ee75a6c25"
     },
     "tokens.byChain": {
       "path": "tokens/by-chain.v1.json",
-      "sha256": "0494c310eb973152692cc36aafba4e3338581cb9cc3d800810ae99413e0238ce"
+      "sha256": "3a2fb77fb1e7d847ff0d49f06fedafbb0f884ab9b72002a34eea2cdd42641a69"
     }
   },
   "iconBase": "https://static.mo.fit/icons/"

@@ -20,7 +20,7 @@
  */
 
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -160,6 +160,21 @@ function main() {
   ingest(readJson("tokens/stablecoins.v1.json").tokens, "stablecoins");
   ingest(readJson("tokens/bsc.popular.v1.json").tokens, "bsc.popular");
   ingest(readJson("tokens/solana.popular.v1.json").tokens, "solana.popular");
+
+  if (existsSync(path.join(root, "tokens/lists.curated.v1.json"))) {
+    ingest(
+      readJson("tokens/lists.curated.v1.json").tokens,
+      "lists.curated",
+    );
+  }
+
+  // Optional enriched partials (name/symbol from trustwallet).
+  const tokensDir = path.join(root, "tokens");
+  for (const name of readdirSync(tokensDir)) {
+    if (!name.endsWith(".enriched.v1.json")) continue;
+    const doc = readJson(path.join("tokens", name));
+    ingest(doc.tokens ?? [], name);
+  }
 
   const all = [...byKey.values()].sort((a, b) => {
     if (a.caip2 !== b.caip2) return a.caip2.localeCompare(b.caip2);

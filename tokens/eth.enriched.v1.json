@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-eth-enriched-v1",
+  "updatedAt": "2026-08-06T05:12:02.147Z",
+  "caip2": "eip155:1",
+  "chainName": "Ethereum Mainnet",
+  "rule": "Enriched from partial icons + trustwallet info.json. Primary key tokenKey.",
+  "tokenCount": 4,
+  "tokens": [
+    {
+      "sortIndex": 0,
+      "tokenKey": "eip155:1/erc20:0x15874d65e649880c2614e7a480cb7c9a55787ff6",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0x15874d65e649880c2614e7a480cb7c9A55787FF6",
+      "addressKey": "0x15874d65e649880c2614e7a480cb7c9a55787ff6",
+      "symbol": "eMax",
+      "name": "EthereumMax",
+      "decimals": 18,
+      "displayHint": "eMax · Ethereum Mainnet · eip155:1",
+      "icon": {
+        "default": "tokens/eth/0x15874d65e649880c2614e7a480cb7c9A55787FF6.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "eth"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    },
+    {
+      "sortIndex": 1,
+      "tokenKey": "eip155:1/erc20:0x1997830b5beb723f5089bb8fc38766d419a0444d",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0x1997830B5beB723f5089bb8fc38766d419a0444d",
+      "addressKey": "0x1997830b5beb723f5089bb8fc38766d419a0444d",
+      "symbol": "NEWINU",
+      "name": "New Guinea Singing Dog Inu",
+      "decimals": 9,
+      "displayHint": "NEWINU · Ethereum Mainnet · eip155:1",
+      "icon": {
+        "default": "tokens/eth/0x1997830B5beB723f5089bb8fc38766d419a0444d.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "eth"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    },
+    {
+      "sortIndex": 2,
+      "tokenKey": "eip155:1/erc20:0x1e987df68cc13d271e621ec82e050a1bbd62c180",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0x1e987DF68CC13d271e621ec82E050A1BbD62c180",
+      "addressKey": "0x1e987df68cc13d271e621ec82e050a1bbd62c180",
+      "symbol": "WAGMI",
+      "name": "WAGMI Game",
+      "decimals": 18,
+      "displayHint": "WAGMI · Ethereum Mainnet · eip155:1",
+      "icon": {
+        "default": "tokens/eth/0x1e987DF68CC13d271e621ec82E050A1BbD62c180.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "eth"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    },
+    {
+      "sortIndex": 3,
+      "tokenKey": "eip155:1/erc20:0x256d1fce1b1221e8398f65f9b36033ce50b2d497",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0x256D1fCE1b1221e8398f65F9B36033CE50B2D497",
+      "addressKey": "0x256d1fce1b1221e8398f65f9b36033ce50b2d497",
+      "symbol": "wALV",
+      "name": "Alvey Chain",
+      "decimals": 18,
+      "displayHint": "wALV · Ethereum Mainnet · eip155:1",
+      "icon": {
+        "default": "tokens/eth/0x256D1fCE1b1221e8398f65F9B36033CE50B2D497.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "eth"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    }
+  ]
+}

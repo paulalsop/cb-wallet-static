@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-Avalanche-C-enriched-v1",
+  "updatedAt": "2026-08-06T05:08:06.033Z",
+  "caip2": "eip155:43114",
+  "chainName": "Avalanche C-Chain",
+  "rule": "Enriched from partial icons + trustwallet info.json. Primary key tokenKey.",
+  "tokenCount": 0,
+  "tokens": []
+}

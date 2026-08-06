@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-bsc-enriched-v1",
+  "updatedAt": "2026-08-06T05:10:54.524Z",
+  "caip2": "eip155:56",
+  "chainName": "BNB Smart Chain",
+  "rule": "Enriched from partial icons + trustwallet info.json. Primary key tokenKey.",
+  "tokenCount": 3,
+  "tokens": [
+    {
+      "sortIndex": 0,
+      "tokenKey": "eip155:56/erc20:0x007ea5c0ea75a8df45d288a4debdd5bb633f9e56",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56",
+      "addressKey": "0x007ea5c0ea75a8df45d288a4debdd5bb633f9e56",
+      "symbol": "CAN",
+      "name": "CanYaCoin",
+      "decimals": 18,
+      "displayHint": "CAN · BNB Smart Chain · eip155:56",
+      "icon": {
+        "default": "tokens/bsc/0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "bsc"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    },
+    {
+      "sortIndex": 1,
+      "tokenKey": "eip155:56/erc20:0x00998d97c22b564d1daf39d493e74c21d83fffba",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x00998d97c22B564d1dAF39d493e74C21D83fffbA",
+      "addressKey": "0x00998d97c22b564d1daf39d493e74c21d83fffba",
+      "symbol": "WEB2",
+      "name": "WEB2 Inu",
+      "decimals": 9,
+      "displayHint": "WEB2 · BNB Smart Chain · eip155:56",
+      "icon": {
+        "default": "tokens/bsc/0x00998d97c22B564d1dAF39d493e74C21D83fffbA.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "bsc"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    },
+    {
+      "sortIndex": 2,
+      "tokenKey": "eip155:56/erc20:0x009cf7bc57584b7998236eff51b98a168dcea9b0",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x009cF7bC57584b7998236eff51b98A168DceA9B0",
+      "addressKey": "0x009cf7bc57584b7998236eff51b98a168dcea9b0",
+      "symbol": "SYRUP",
+      "name": "Syrup",
+      "decimals": 18,
+      "displayHint": "SYRUP · BNB Smart Chain · eip155:56",
+      "icon": {
+        "default": "tokens/bsc/0x009cF7bC57584b7998236eff51b98A168DceA9B0.png"
+      },
+      "status": "abandoned",
+      "enabled": true,
+      "tags": [
+        "enriched-partial",
+        "bsc"
+      ],
+      "sources": [
+        "partial+trustwallet"
+      ]
+    }
+  ]
+}
