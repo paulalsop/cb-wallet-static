@@ -2,7 +2,7 @@
 
 cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）。**无数据库**：Git 即存储。
 
-公开入口：[https://static.mo.fit/](https://static.mo.fit/)
+公开入口：[https://static.cb.tools/](https://static.cb.tools/)
 
 ## 结构
 
@@ -12,7 +12,7 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 - `chains/rpc.v1.json` — 每链 `urls[]`，`urls[0]` 为主用
 - **`tokens/catalog.v1.json`** — **精选代币扁平表**（含 symbol / name / caip2 / chainName / address / tokenKey）
 - **`tokens/by-chain.v1.json`** — **按链分组**（先选链，再列该链代币）
-- **`tokens/browse.html`** — 浏览器可搜索的代币表（[打开](https://static.mo.fit/tokens/browse.html)）
+- **`tokens/browse.html`** — 浏览器可搜索的代币表（[打开](https://static.cb.tools/tokens/browse.html)）
 - `tokens/stablecoins.v1.json` / `*.popular.v1.json` / `natives.v1.json` — 生成 catalog 的源表
 - `tokens/*.partial.v1.json` — **仅图标清单**（无完整 name，不进精选 catalog）
 - `icons/chains/` · `icons/tokens/` — 图标
@@ -25,10 +25,10 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 
 | 需求 | 打开 |
 |------|------|
-| 人眼浏览 / 搜索 | https://static.mo.fit/tokens/browse.html |
-| 机器拉全表 | https://static.mo.fit/tokens/catalog.v1.json |
-| 机器按链查 | https://static.mo.fit/tokens/by-chain.v1.json |
-| Markdown 索引 | https://static.mo.fit/tokens/README.md |
+| 人眼浏览 / 搜索 | https://static.cb.tools/tokens/browse.html |
+| 机器拉全表 | https://static.cb.tools/tokens/catalog.v1.json |
+| 机器按链查 | https://static.cb.tools/tokens/by-chain.v1.json |
+| Markdown 索引 | https://static.cb.tools/tokens/README.md |
 
 **主键是 `tokenKey`（`caip2` + 资产），不是 symbol。**  
 同名 `USDT` 在 ETH / BSC / TRON 是不同行，`displayHint` 固定带链，例如 `USDT · eip155:56`。
@@ -86,8 +86,13 @@ node scripts/assert-sort.mjs
 1. 推送 `main`
 2. 仓 Settings → Pages → Source: **Deploy from a branch** → `main` / `/ (root)`（无需 Actions；当前 PAT 无 workflow 权限）
 3. 打开：`https://paulalsop.github.io/cb-wallet-static/manifest.v1.json`
-4. 自定义域名（已配 DNS）：`static.mo.fit` → 在 Pages Custom domain 填同一主机名；验收 `https://static.mo.fit/manifest.v1.json`
-5. 若绑自定义域名，改 `manifest.iconBase` 与 `CNAME` 后重算 sha 再提交
+4. 自定义域名：`static.cb.tools`
+   - **Cloudflare DNS**（域名在 CF）：添加 CNAME `static` → `paulalsop.github.io`（建议先 **仅 DNS / 灰云**，证书签发后再按需开代理）
+   - **GitHub Pages**：Custom domain 填 `static.cb.tools`，勾选 Enforce HTTPS
+   - 验收：`https://static.cb.tools/manifest.v1.json`
+5. 若换域名，改 `manifest.iconBase` 与根目录 `CNAME` 后重算相关引用再提交
+
+> 选用 `static.cb.tools` 而非 apex：`cb.tools` / `wallet.cb.tools` 留给平台与钱包深链，避免冲突。
 
 ## 管理后台写仓权限
 
