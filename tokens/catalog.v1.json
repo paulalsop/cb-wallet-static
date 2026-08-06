@@ -1,0 +1,1011 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-tokens-catalog-v1",
+  "updatedAt": "2026-08-06T04:17:32.478Z",
+  "rule": "Primary key is tokenKey (caip2 + asset). Never merge or look up by symbol alone. displayHint always shows chain.",
+  "tokenCount": 38,
+  "tokens": [
+    {
+      "sortIndex": 0,
+      "tokenKey": "bip122:000000000019d6689c085ae165831e93/native",
+      "caip2": "bip122:000000000019d6689c085ae165831e93",
+      "chainName": "Bitcoin",
+      "family": "bitcoin",
+      "address": null,
+      "addressKey": "native",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "decimals": 8,
+      "displayHint": "BTC · Bitcoin · bip122:000000000019d6689c085ae165831e93",
+      "icon": {
+        "default": "tokens/bitcoin/BTC.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "native",
+        "bitcoin"
+      ],
+      "sources": [
+        "natives"
+      ]
+    },
+    {
+      "sortIndex": 1,
+      "tokenKey": "eip155:1/erc20:0x6b175474e89094c44da98b954eedeac495271d0f",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "addressKey": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:1",
+      "icon": {
+        "default": "tokens/eip155-1/0x6b175474e89094c44da98b954eedeac495271d0f.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "dai"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 2,
+      "tokenKey": "eip155:1/native",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": null,
+      "addressKey": "native",
+      "symbol": "ETH",
+      "name": "Ether",
+      "decimals": 18,
+      "displayHint": "ETH · Ethereum Mainnet · eip155:1",
+      "icon": {
+        "default": "tokens/eth.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "native",
+        "ethereum"
+      ],
+      "sources": [
+        "natives"
+      ]
+    },
+    {
+      "sortIndex": 3,
+      "tokenKey": "eip155:1/erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "addressKey": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · eip155:1",
+      "icon": {
+        "default": "tokens/eip155-1/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 4,
+      "tokenKey": "eip155:1/erc20:0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "addressKey": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · eip155:1",
+      "icon": {
+        "default": "tokens/eip155-1/0xdac17f958d2ee523a2206206994597c13d831ec7.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 5,
+      "tokenKey": "eip155:10/erc20:0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "caip2": "eip155:10",
+      "chainName": "Optimistic Ethereum",
+      "family": "evm",
+      "chainId": 10,
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "addressKey": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:10",
+      "icon": {
+        "default": "tokens/eip155-10/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "dai"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 6,
+      "tokenKey": "eip155:10/erc20:0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "caip2": "eip155:10",
+      "chainName": "Optimistic Ethereum",
+      "family": "evm",
+      "chainId": 10,
+      "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+      "addressKey": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · eip155:10",
+      "icon": {
+        "default": "tokens/eip155-10/0x0b2c639c533813f4aa9d7837caf62653d097ff85.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 7,
+      "tokenKey": "eip155:10/erc20:0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "caip2": "eip155:10",
+      "chainName": "Optimistic Ethereum",
+      "family": "evm",
+      "chainId": 10,
+      "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "addressKey": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · eip155:10",
+      "icon": {
+        "default": "tokens/eip155-10/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 8,
+      "tokenKey": "eip155:137/erc20:0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "caip2": "eip155:137",
+      "chainName": "Polygon (Matic) Mainnet",
+      "family": "evm",
+      "chainId": 137,
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "addressKey": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:137",
+      "icon": {
+        "default": "tokens/eip155-137/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "dai"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 9,
+      "tokenKey": "eip155:137/erc20:0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "caip2": "eip155:137",
+      "chainName": "Polygon (Matic) Mainnet",
+      "family": "evm",
+      "chainId": 137,
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "addressKey": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · eip155:137",
+      "icon": {
+        "default": "tokens/eip155-137/0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 10,
+      "tokenKey": "eip155:137/erc20:0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "caip2": "eip155:137",
+      "chainName": "Polygon (Matic) Mainnet",
+      "family": "evm",
+      "chainId": 137,
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "addressKey": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "symbol": "USDC.e",
+      "name": "Bridged USD Coin (PoS)",
+      "decimals": 6,
+      "displayHint": "USDC.e · eip155:137",
+      "icon": {
+        "default": "tokens/eip155-137/0x2791bca1f2de4661ed88a30c99a7a9449aa84174.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc-e"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 11,
+      "tokenKey": "eip155:137/erc20:0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "caip2": "eip155:137",
+      "chainName": "Polygon (Matic) Mainnet",
+      "family": "evm",
+      "chainId": 137,
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "addressKey": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · eip155:137",
+      "icon": {
+        "default": "tokens/eip155-137/0xc2132d05d31c914a87c6611c10748aeb04b58e8f.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 12,
+      "tokenKey": "eip155:42161/erc20:0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "caip2": "eip155:42161",
+      "chainName": "Arbitrum One",
+      "family": "evm",
+      "chainId": 42161,
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+      "addressKey": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:42161",
+      "icon": {
+        "default": "tokens/eip155-42161/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "dai"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 13,
+      "tokenKey": "eip155:42161/erc20:0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "caip2": "eip155:42161",
+      "chainName": "Arbitrum One",
+      "family": "evm",
+      "chainId": 42161,
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "addressKey": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · eip155:42161",
+      "icon": {
+        "default": "tokens/eip155-42161/0xaf88d065e77c8cc2239327c5edb3a432268e5831.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 14,
+      "tokenKey": "eip155:42161/erc20:0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "caip2": "eip155:42161",
+      "chainName": "Arbitrum One",
+      "family": "evm",
+      "chainId": 42161,
+      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "addressKey": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · eip155:42161",
+      "icon": {
+        "default": "tokens/eip155-42161/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 15,
+      "tokenKey": "eip155:43114/erc20:0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "caip2": "eip155:43114",
+      "chainName": "Avalanche Mainnet",
+      "family": "evm",
+      "chainId": 43114,
+      "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "addressKey": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · eip155:43114",
+      "icon": {
+        "default": "tokens/eip155-43114/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 16,
+      "tokenKey": "eip155:43114/erc20:0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "caip2": "eip155:43114",
+      "chainName": "Avalanche Mainnet",
+      "family": "evm",
+      "chainId": 43114,
+      "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+      "addressKey": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · eip155:43114",
+      "icon": {
+        "default": "tokens/eip155-43114/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 17,
+      "tokenKey": "eip155:56/native",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": null,
+      "addressKey": "native",
+      "symbol": "BNB",
+      "name": "BNB",
+      "decimals": 18,
+      "displayHint": "BNB · BNB Smart Chain · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/native.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "native",
+        "bsc",
+        "popular"
+      ],
+      "sources": [
+        "natives",
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 18,
+      "tokenKey": "eip155:56/erc20:0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "addressKey": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+      "symbol": "BTCB",
+      "name": "BTCB Token",
+      "decimals": 18,
+      "displayHint": "BTCB · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 19,
+      "tokenKey": "eip155:56/erc20:0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "addressKey": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "symbol": "CAKE",
+      "name": "PancakeSwap Token",
+      "decimals": 18,
+      "displayHint": "CAKE · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 20,
+      "tokenKey": "eip155:56/erc20:0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "addressKey": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "symbol": "DAI",
+      "name": "Dai Token",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "dai",
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "stablecoins",
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 21,
+      "tokenKey": "eip155:56/erc20:0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "addressKey": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "displayHint": "ETH · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 22,
+      "tokenKey": "eip155:56/erc20:0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+      "addressKey": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "symbol": "FDUSD",
+      "name": "First Digital USD",
+      "decimals": 18,
+      "displayHint": "FDUSD · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "fdusd",
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "stablecoins",
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 23,
+      "tokenKey": "eip155:56/erc20:0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "addressKey": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 18,
+      "displayHint": "USDC · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc",
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "stablecoins",
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 24,
+      "tokenKey": "eip155:56/erc20:0x55d398326f99059ff775485246999027b3197955",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "addressKey": "0x55d398326f99059ff775485246999027b3197955",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 18,
+      "displayHint": "USDT · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0x55d398326f99059ff775485246999027b3197955.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt",
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "stablecoins",
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 25,
+      "tokenKey": "eip155:56/erc20:0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "addressKey": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18,
+      "displayHint": "WBNB · eip155:56",
+      "icon": {
+        "default": "tokens/eip155-56/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "bsc"
+      ],
+      "sources": [
+        "bsc.popular"
+      ]
+    },
+    {
+      "sortIndex": 26,
+      "tokenKey": "eip155:8453/erc20:0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+      "caip2": "eip155:8453",
+      "chainName": "Base",
+      "family": "evm",
+      "chainId": 8453,
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+      "addressKey": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "displayHint": "DAI · eip155:8453",
+      "icon": {
+        "default": "tokens/eip155-8453/0x50c5725949a6f0c72e6c4a641f24049a917db0cb.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "dai"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 27,
+      "tokenKey": "eip155:8453/erc20:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "caip2": "eip155:8453",
+      "chainName": "Base",
+      "family": "evm",
+      "chainId": 8453,
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "addressKey": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · eip155:8453",
+      "icon": {
+        "default": "tokens/eip155-8453/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    },
+    {
+      "sortIndex": 28,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "addressKey": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "symbol": "BONK",
+      "name": "Bonk",
+      "decimals": 5,
+      "displayHint": "BONK · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 29,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "addressKey": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "decimals": 6,
+      "displayHint": "JUP · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 30,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "addressKey": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "symbol": "PYUSD",
+      "name": "PayPal USD",
+      "decimals": 6,
+      "displayHint": "PYUSD · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "pyusd",
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "stablecoins",
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 31,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "addressKey": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+      "symbol": "RAY",
+      "name": "Raydium",
+      "decimals": 6,
+      "displayHint": "RAY · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 32,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/native",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": null,
+      "addressKey": "native",
+      "symbol": "SOL",
+      "name": "Solana",
+      "decimals": 9,
+      "displayHint": "SOL · Solana · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/SOL.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "native",
+        "solana",
+        "popular"
+      ],
+      "sources": [
+        "natives",
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 33,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "addressKey": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "displayHint": "USDC · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdc",
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "stablecoins",
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 34,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "addressKey": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt",
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "stablecoins",
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 35,
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/token:EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "addressKey": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "symbol": "WIF",
+      "name": "dogwifhat",
+      "decimals": 6,
+      "displayHint": "WIF · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": {
+        "default": "tokens/solana/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "popular",
+        "solana"
+      ],
+      "sources": [
+        "solana.popular"
+      ]
+    },
+    {
+      "sortIndex": 36,
+      "tokenKey": "tron:mainnet/native",
+      "caip2": "tron:mainnet",
+      "chainName": "TRON",
+      "family": "tron",
+      "address": null,
+      "addressKey": "native",
+      "symbol": "TRX",
+      "name": "TRON",
+      "decimals": 6,
+      "displayHint": "TRX · TRON · tron:mainnet",
+      "icon": {
+        "default": "tokens/tron/TRX.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "native",
+        "tron"
+      ],
+      "sources": [
+        "natives"
+      ]
+    },
+    {
+      "sortIndex": 37,
+      "tokenKey": "tron:mainnet/trc20:TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
+      "caip2": "tron:mainnet",
+      "chainName": "TRON",
+      "family": "tron",
+      "address": "TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
+      "addressKey": "TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "displayHint": "USDT · tron:mainnet",
+      "icon": {
+        "default": "tokens/tron/TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [
+        "stablecoin",
+        "usdt"
+      ],
+      "sources": [
+        "stablecoins"
+      ]
+    }
+  ]
+}

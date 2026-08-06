@@ -1,6 +1,8 @@
 # cb-wallet-static
 
-cb.wallet 远端只读配置仓（链目录 / RPC / 图标）。**无数据库**：Git 即存储。
+cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）。**无数据库**：Git 即存储。
+
+公开入口：[https://static.mo.fit/](https://static.mo.fit/)
 
 ## 结构
 
@@ -8,13 +10,34 @@ cb.wallet 远端只读配置仓（链目录 / RPC / 图标）。**无数据库**
 - `chains/catalog.v1.json` — **双列表**：`featured[]`（精选）+ `cbPublished[]`（cb 一键发公链）
 - `chains/public-evm.v1.json` — 公开 EVM 网络导入池（未进精选，可晋升）
 - `chains/rpc.v1.json` — 每链 `urls[]`，`urls[0]` 为主用
-- `icons/chains/` — 链图标；`icons/tokens/` — 稀疏代币图标
-- `tokens/stablecoins.v1.json` — **按链区分的稳定币**（主键 `caip2+地址`，禁止只按 USDT/USDC 符号）
-- `icons/tokens/eip155-<chainId>/<address>.png` — 稳定币图标路径含链 ID，链间不冲突
+- **`tokens/catalog.v1.json`** — **精选代币扁平表**（含 symbol / name / caip2 / chainName / address / tokenKey）
+- **`tokens/by-chain.v1.json`** — **按链分组**（先选链，再列该链代币）
+- **`tokens/browse.html`** — 浏览器可搜索的代币表（[打开](https://static.mo.fit/tokens/browse.html)）
+- `tokens/stablecoins.v1.json` / `*.popular.v1.json` / `natives.v1.json` — 生成 catalog 的源表
+- `tokens/*.partial.v1.json` — **仅图标清单**（无完整 name，不进精选 catalog）
+- `icons/chains/` · `icons/tokens/` — 图标
 - `sources/` — 导入来源与归因（见 `ATTRIBUTION.md`）
 - `bridges/network-bridge.v1.json` — 桥发现层
 
 规范见 monorepo：`mo-wallet-app/docs/0721update/wallet-static-config-git-hosting.md`
+
+## 代币怎么查（必读）
+
+| 需求 | 打开 |
+|------|------|
+| 人眼浏览 / 搜索 | https://static.mo.fit/tokens/browse.html |
+| 机器拉全表 | https://static.mo.fit/tokens/catalog.v1.json |
+| 机器按链查 | https://static.mo.fit/tokens/by-chain.v1.json |
+| Markdown 索引 | https://static.mo.fit/tokens/README.md |
+
+**主键是 `tokenKey`（`caip2` + 资产），不是 symbol。**  
+同名 `USDT` 在 ETH / BSC / TRON 是不同行，`displayHint` 固定带链，例如 `USDT · eip155:56`。
+
+重建精选目录：
+
+```bash
+node scripts/build-token-catalog.mjs
+```
 
 ## 从公开 networklist 导入
 
@@ -29,6 +52,8 @@ node scripts/import-token-icons.mjs --chains eth,bsc,bitcoin,tron,solana --limit
 node scripts/fetch-stablecoin-icons.mjs
 # Solana + BSC 精选链 / RPC / 热门代币补全
 node scripts/complete-solana-bsc.mjs
+# 汇总可查询 catalog
+node scripts/build-token-catalog.mjs
 ```
 
 生产上线前请替换未授权图标，并确保产品 UI **不出现**第三方钱包品牌字样。
@@ -57,7 +82,7 @@ node scripts/assert-sort.mjs
 2. 仓 Settings → Pages → Source: **Deploy from a branch** → `main` / `/ (root)`（无需 Actions；当前 PAT 无 workflow 权限）
 3. 打开：`https://paulalsop.github.io/cb-wallet-static/manifest.v1.json`
 4. 自定义域名（已配 DNS）：`static.mo.fit` → 在 Pages Custom domain 填同一主机名；验收 `https://static.mo.fit/manifest.v1.json`
-4. 若绑自定义域名，改 `manifest.iconBase` 与 `CNAME` 后重算 sha 再提交
+5. 若绑自定义域名，改 `manifest.iconBase` 与 `CNAME` 后重算 sha 再提交
 
 ## 管理后台写仓权限
 
