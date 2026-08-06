@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>cb-wallet tokens · by chain</title>
+  <style>
+    :root {
+      --bg: #0f1218;
+      --panel: #171b24;
+      --text: #e8ecf4;
+      --muted: #9aa3b5;
+      --line: #2a3142;
+      --accent: #5b8cff;
+      --ok: #3ecf8e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 14px/1.45 ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      padding: 20px 20px 12px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    h1 { margin: 0 0 6px; font-size: 18px; }
+    .sub { color: var(--muted); font-size: 13px; }
+    .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    input, select {
+      background: #0c0f15;
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      min-width: 180px;
+    }
+    input { flex: 1; min-width: 220px; }
+    a { color: var(--accent); }
+    main { padding: 16px 20px 40px; }
+    .chain {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--panel);
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+    .chain > summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 12px 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+    .chain > summary::-webkit-details-marker { display: none; }
+    .count {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      border-top: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      word-break: break-all;
+    }
+    .pill {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 999px;
+      background: #243049;
+      color: #c9d6ff;
+      font-size: 11px;
+      margin-right: 4px;
+    }
+    .empty { color: var(--muted); padding: 24px 0; }
+    .err { color: #ff7b7b; }
+    img.icon {
+      width: 20px; height: 20px; border-radius: 50%;
+      vertical-align: middle; margin-right: 6px; background: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>代币目录 · 按链可查</h1>
+    <div class="sub">
+      数据源 <a href="./catalog.v1.json">catalog.v1.json</a> /
+      <a href="./by-chain.v1.json">by-chain.v1.json</a> ·
+      主键 <code>tokenKey = caip2 + 资产</code>，禁止只按 symbol 合并
+    </div>
+    <div class="row">
+      <input id="q" type="search" placeholder="搜 symbol / name / 合约地址 / caip2 / tokenKey" />
+      <select id="chain">
+        <option value="">全部链</option>
+      </select>
+    </div>
+    <div class="sub" id="meta" style="margin-top:8px"></div>
+  </header>
+  <main id="root"><div class="sub">加载中…</div></main>
+  <script>
+    const ICON_BASE = "https://static.mo.fit/icons/";
+    const root = document.getElementById("root");
+    const meta = document.getElementById("meta");
+    const qEl = document.getElementById("q");
+    const chainEl = document.getElementById("chain");
+    let data = null;
+
+    function iconUrl(t) {
+      const rel = t.icon && t.icon.default;
+      return rel ? ICON_BASE + rel.replace(/^\/+/, "") : null;
+    }
+
+    function matches(t, q, caip2) {
+      if (caip2 && t.caip2 !== caip2) return false;
+      if (!q) return true;
+      const hay = [
+        t.symbol, t.name, t.caip2, t.chainName, t.tokenKey,
+        t.address || "native", t.displayHint, ...(t.tags || [])
+      ].join(" ").toLowerCase();
+      return hay.includes(q);
+    }
+
+    function render() {
+      if (!data) return;
+      const q = (qEl.value || "").trim().toLowerCase();
+      const caip2 = chainEl.value;
+      const groups = new Map();
+      for (const t of data.tokens) {
+        if (!matches(t, q, caip2)) continue;
+        if (!groups.has(t.caip2)) {
+          groups.set(t.caip2, { caip2: t.caip2, chainName: t.chainName, tokens: [] });
+        }
+        groups.get(t.caip2).tokens.push(t);
+      }
+      const list = [...groups.values()].sort((a, b) => a.caip2.localeCompare(b.caip2));
+      meta.textContent = `匹配 ${[...list].reduce((n, g) => n + g.tokens.length, 0)} 个代币 · ${list.length} 条链`;
+      if (!list.length) {
+        root.innerHTML = '<div class="empty">无匹配结果</div>';
+        return;
+      }
+      root.innerHTML = list.map((g) => {
+        const rows = g.tokens.map((t) => {
+          const src = iconUrl(t);
+          const img = src ? `<img class="icon" src="${src}" alt="" loading="lazy" />` : "";
+          const tags = (t.tags || []).map((x) => `<span class="pill">${x}</span>`).join("");
+          return `<tr>
+            <td>${img}<strong>${escapeHtml(t.symbol)}</strong></td>
+            <td>${escapeHtml(t.name)}</td>
+            <td><code>${escapeHtml(t.address || "native")}</code></td>
+            <td><code>${escapeHtml(t.tokenKey)}</code><div>${tags}</div></td>
+          </tr>`;
+        }).join("");
+        return `<details class="chain" open>
+          <summary>
+            <span><strong>${escapeHtml(g.chainName)}</strong> · <code>${escapeHtml(g.caip2)}</code></span>
+            <span class="count">${g.tokens.length} tokens</span>
+          </summary>
+          <table>
+            <thead><tr><th>symbol</th><th>name</th><th>address</th><th>tokenKey / tags</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </details>`;
+      }).join("");
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    async function boot() {
+      try {
+        const res = await fetch("./catalog.v1.json", { cache: "no-cache" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        data = await res.json();
+        const chains = [...new Map(data.tokens.map((t) => [t.caip2, t.chainName])).entries()]
+          .sort((a, b) => a[0].localeCompare(b[0]));
+        for (const [caip2, name] of chains) {
+          const opt = document.createElement("option");
+          opt.value = caip2;
+          opt.textContent = `${name} (${caip2})`;
+          chainEl.appendChild(opt);
+        }
+        meta.textContent = `已加载 ${data.tokenCount} 代币 · updated ${data.updatedAt}`;
+        render();
+      } catch (e) {
+        root.innerHTML = `<div class="err">加载失败：${escapeHtml(e.message)}</div>`;
+      }
+    }
+
+    qEl.addEventListener("input", render);
+    chainEl.addEventListener("change", render);
+    boot();
+  </script>
+</body>
+</html>

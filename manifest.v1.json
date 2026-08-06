@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-05T10:30:58.553534Z",
+  "publishedAt": "2026-08-06T04:17:32.478Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -29,6 +29,14 @@
     "tokens.solanaPopular": {
       "path": "tokens/solana.popular.v1.json",
       "sha256": "a1640c24323b619dc3dfa46d0c92be6178cb7508e4338fe8e570c03125b50291"
+    },
+    "tokens.catalog": {
+      "path": "tokens/catalog.v1.json",
+      "sha256": "bba46f90d78a76b03029b3b3ae9d5d2b3a36c59a7dd6bb4633372f763162e39f"
+    },
+    "tokens.byChain": {
+      "path": "tokens/by-chain.v1.json",
+      "sha256": "0494c310eb973152692cc36aafba4e3338581cb9cc3d800810ae99413e0238ce"
     }
   },
   "iconBase": "https://static.mo.fit/icons/"

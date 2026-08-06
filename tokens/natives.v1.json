@@ -1,27 +1,89 @@
 {
   "schema": 1,
-  "updatedAt": "2026-08-04T11:03:06.827Z",
-  "note": "Native asset icons from trustwallet/assets (MIT).",
+  "updatedAt": "2026-08-06T04:00:00.000Z",
+  "note": "Native gas assets. Primary key is tokenKey (caip2 + native), never symbol alone.",
   "tokens": [
     {
+      "tokenKey": "bip122:000000000019d6689c085ae165831e93/native",
+      "caip2": "bip122:000000000019d6689c085ae165831e93",
+      "chainName": "Bitcoin",
+      "family": "bitcoin",
+      "address": null,
+      "addressKey": "native",
       "symbol": "BTC",
-      "icon": "tokens/bitcoin/BTC.png",
-      "source": "trustwallet/assets"
+      "name": "Bitcoin",
+      "decimals": 8,
+      "displayHint": "BTC · Bitcoin · bip122:000000000019d6689c085ae165831e93",
+      "icon": { "default": "tokens/bitcoin/BTC.png" },
+      "status": "active",
+      "enabled": true,
+      "tags": ["native", "bitcoin"]
     },
     {
+      "tokenKey": "eip155:1/native",
+      "caip2": "eip155:1",
+      "chainName": "Ethereum Mainnet",
+      "family": "evm",
+      "chainId": 1,
+      "address": null,
+      "addressKey": "native",
       "symbol": "ETH",
-      "icon": "tokens/eth/ETH.png",
-      "source": "trustwallet/assets"
+      "name": "Ether",
+      "decimals": 18,
+      "displayHint": "ETH · Ethereum Mainnet · eip155:1",
+      "icon": { "default": "tokens/eth.png" },
+      "status": "active",
+      "enabled": true,
+      "tags": ["native", "ethereum"]
     },
     {
+      "tokenKey": "eip155:56/native",
+      "caip2": "eip155:56",
+      "chainName": "BNB Smart Chain",
+      "family": "evm",
+      "chainId": 56,
+      "address": null,
+      "addressKey": "native",
+      "symbol": "BNB",
+      "name": "BNB",
+      "decimals": 18,
+      "displayHint": "BNB · BNB Smart Chain · eip155:56",
+      "icon": { "default": "tokens/eip155-56/native.png" },
+      "status": "active",
+      "enabled": true,
+      "tags": ["native", "bsc"]
+    },
+    {
+      "tokenKey": "tron:mainnet/native",
+      "caip2": "tron:mainnet",
+      "chainName": "TRON",
+      "family": "tron",
+      "address": null,
+      "addressKey": "native",
       "symbol": "TRX",
-      "icon": "tokens/tron/TRX.png",
-      "source": "trustwallet/assets"
+      "name": "TRON",
+      "decimals": 6,
+      "displayHint": "TRX · TRON · tron:mainnet",
+      "icon": { "default": "tokens/tron/TRX.png" },
+      "status": "active",
+      "enabled": true,
+      "tags": ["native", "tron"]
     },
     {
+      "tokenKey": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp/native",
+      "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "chainName": "Solana",
+      "family": "solana",
+      "address": null,
+      "addressKey": "native",
       "symbol": "SOL",
-      "icon": "tokens/solana/SOL.png",
-      "source": "trustwallet/assets"
+      "name": "Solana",
+      "decimals": 9,
+      "displayHint": "SOL · Solana · solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "icon": { "default": "tokens/solana/SOL.png" },
+      "status": "active",
+      "enabled": true,
+      "tags": ["native", "solana"]
     }
   ]
 }
