@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-/** Home / registry natives — keep in sync with extension chain-registry market pairs. */
+/** Home / registry natives + aggregated stables — keep in sync with extension market-prices. */
 const SYMBOLS = [
   { symbol: "BTC", instId: "BTC-USDT" },
   { symbol: "ETH", instId: "ETH-USDT" },
@@ -24,7 +24,14 @@ const SYMBOLS = [
   { symbol: "SOL", instId: "SOL-USDT" },
   { symbol: "DOT", instId: "DOT-USDT" },
   { symbol: "POL", instId: "POL-USDT" },
+  { symbol: "USDT", instId: "USDT-USD" },
+  { symbol: "USDC", instId: "USDC-USDT" },
+  // DAI: no OKX spot — filled via CoinGecko below.
 ];
+
+const COINGECKO_FALLBACK = {
+  DAI: "dai",
+};
 
 function writeJson(rel, value) {
   writeFileSync(path.join(root, rel), `${JSON.stringify(value, null, 2)}\n`);
@@ -59,6 +66,21 @@ async function fetchOkxTicker(instId) {
   return json.data[0];
 }
 
+async function fetchCoingeckoMarkets(ids) {
+  const url = new URL("https://api.coingecko.com/api/v3/coins/markets");
+  url.searchParams.set("vs_currency", "usd");
+  url.searchParams.set("ids", ids.join(","));
+  url.searchParams.set("price_change_percentage", "24h");
+  const res = await fetch(url, {
+    headers: { accept: "application/json" },
+    signal: AbortSignal.timeout(12000),
+  });
+  if (!res.ok) throw new Error(`CoinGecko HTTP ${res.status}`);
+  const json = await res.json();
+  if (!Array.isArray(json)) throw new Error("CoinGecko bad body");
+  return json;
+}
+
 async function main() {
   const bySymbol = {};
   const errors = [];
@@ -82,6 +104,32 @@ async function main() {
       }
     }),
   );
+
+  const needCg = Object.entries(COINGECKO_FALLBACK).filter(
+    ([sym]) => !bySymbol[sym],
+  );
+  if (needCg.length > 0) {
+    try {
+      const rows = await fetchCoingeckoMarkets(needCg.map(([, id]) => id));
+      const byId = new Map(rows.map((r) => [r.id, r]));
+      for (const [symbol, id] of needCg) {
+        const row = byId.get(id);
+        const price = asNumber(row?.current_price);
+        if (price === null || price <= 0) {
+          errors.push(`${symbol}: CoinGecko invalid price`);
+          continue;
+        }
+        bySymbol[symbol] = {
+          priceUsd: price,
+          changePct24h: asNumber(row?.price_change_percentage_24h) ?? 0,
+        };
+      }
+    } catch (e) {
+      errors.push(
+        `coingecko: ${e instanceof Error ? e.message : String(e)}`,
+      );
+    }
+  }
 
   if (Object.keys(bySymbol).length === 0) {
     console.error("build-market-prices: no quotes", errors);
