@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-risk-hints-v1",
+  "updatedAt": "2026-08-07T07:40:00.000Z",
+  "source": "cb.wallet curated only — never third-party wallet dumps",
+  "rule": "Entries lower trust only. Unknown subjects stay unknown. Clients must allowStale on CDN miss.",
+  "entries": [
+    {
+      "id": "origin:cb-wallet-canary-blocked.invalid",
+      "kind": "malicious_origin",
+      "subject": "cb-wallet-canary-blocked.invalid",
+      "severity": "critical",
+      "reasonCode": "CURATED_ORIGIN_BLOCK",
+      "note": "Canary host (.invalid) for client wiring tests — not a real site."
+    },
+    {
+      "id": "origin:cb-wallet-canary-suspicious.invalid",
+      "kind": "malicious_origin",
+      "subject": "cb-wallet-canary-suspicious.invalid",
+      "severity": "high",
+      "reasonCode": "CURATED_ORIGIN_WARN",
+      "note": "Canary host (.invalid) for high-severity banner wiring."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-07T03:38:58.780Z",
+  "publishedAt": "2026-08-07T07:41:15.700Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -41,6 +41,10 @@
     "market.prices": {
       "path": "market/prices.v1.json",
       "sha256": "d02a60d3745ef4c9be2a15a539e965a412544affdcb59f2f12d70ab2a7157c7b"
+    },
+    "risk.hints": {
+      "path": "risk/hints.v1.json",
+      "sha256": "62cbea12c09d1bf4529a62113c5100f7facbcc43a7a7d5146482787a5c17c0f4"
     }
   },
   "iconBase": "https://static.cb.tools/icons/"
