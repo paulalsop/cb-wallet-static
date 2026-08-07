@@ -18,6 +18,7 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 - `icons/chains/` · `icons/tokens/` — 图标
 - `sources/` — 导入来源与归因（见 `ATTRIBUTION.md`）
 - `bridges/network-bridge.v1.json` — 桥发现层
+- `risk/hints.v1.json` — **自有风控提示**（origin / address / token / rpc；禁止第三方钱包名单）
 
 规范见 monorepo：`mo-wallet-app/docs/0721update/wallet-static-config-git-hosting.md`
 
