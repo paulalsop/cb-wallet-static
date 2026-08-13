@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogId": "cb-wallet-remote-chains-v1",
-  "updatedAt": "2026-08-04T11:16:40.122Z",
+  "updatedAt": "2026-08-13T05:00:00.000Z",
   "featured": [
     {
       "sortIndex": 0,
@@ -34,7 +34,21 @@
       },
       "status": "active",
       "enabled": true,
-      "tags": []
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "switchableEvm": true,
+        "market": {
+          "binancePair": "ETHUSDT",
+          "coingeckoId": "ethereum"
+        },
+        "ui": {
+          "colorBg": "0x627EEA",
+          "badgeColor": "0x3C3C3D",
+          "mark": "Ξ",
+          "homeSort": 1
+        }
+      }
     },
     {
       "sortIndex": 1,
@@ -73,7 +87,26 @@
       },
       "status": "active",
       "enabled": true,
-      "tags": []
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "market": {
+          "binancePair": "BNBUSDT",
+          "coingeckoId": "binancecoin"
+        },
+        "ui": {
+          "colorBg": "0xF0B90B",
+          "badgeColor": "0xF0B90B",
+          "mark": "B",
+          "homeSort": 2
+        },
+        "swap": {
+          "dexKind": "univ2",
+          "router": "0x10ED43C718714eb63D5aA57B78B54704E256024E",
+          "wrappedNative": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+        }
+      }
     },
     {
       "sortIndex": 2,
@@ -113,7 +146,20 @@
       },
       "status": "active",
       "enabled": true,
-      "tags": []
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "market": {
+          "binancePair": "SOLUSDT",
+          "coingeckoId": "solana"
+        },
+        "ui": {
+          "colorBg": "0x9945FF",
+          "badgeColor": "0x14F195",
+          "mark": "◎",
+          "homeSort": 4
+        }
+      }
     },
     {
       "sortIndex": 3,
@@ -121,13 +167,13 @@
       "chainKey": "evm-matic-137",
       "caip2": "eip155:137",
       "family": "evm",
-      "displayName": "Polygon (Matic) Mainnet",
+      "displayName": "Polygon",
       "shortName": "matic",
       "networkKind": "mainnet",
       "isTestnet": false,
       "nativeCurrency": {
-        "name": "Matic",
-        "symbol": "MATIC",
+        "name": "POL",
+        "symbol": "POL",
         "decimals": 18
       },
       "evm": {
@@ -149,6 +195,21 @@
       "tags": [],
       "ui": {
         "colorBg": "0x7F4CDE"
+      },
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "switchableEvm": true,
+        "market": {
+          "binancePair": "POLUSDT",
+          "coingeckoId": "polygon-ecosystem-token"
+        },
+        "ui": {
+          "colorBg": "0x8247E5",
+          "badgeColor": "0x8247E5",
+          "mark": "P",
+          "homeSort": 5
+        }
       }
     },
     {
@@ -182,7 +243,22 @@
       },
       "status": "active",
       "enabled": true,
-      "tags": []
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "switchableEvm": true,
+        "market": {
+          "binancePair": "ETHUSDT",
+          "coingeckoId": "ethereum"
+        },
+        "ui": {
+          "colorBg": "0x28A0F0",
+          "badgeColor": "0x28A0F0",
+          "mark": "A",
+          "homeSort": 7
+        }
+      }
     },
     {
       "sortIndex": 5,
@@ -190,13 +266,13 @@
       "chainKey": "evm-oeth-10",
       "caip2": "eip155:10",
       "family": "evm",
-      "displayName": "Optimistic Ethereum",
-      "shortName": "oeth",
+      "displayName": "Optimism",
+      "shortName": "op",
       "networkKind": "mainnet",
       "isTestnet": false,
       "nativeCurrency": {
         "name": "Ether",
-        "symbol": "OETH",
+        "symbol": "ETH",
         "decimals": 18
       },
       "evm": {
@@ -218,6 +294,21 @@
       "tags": [],
       "ui": {
         "colorBg": "0xF54B49"
+      },
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "switchableEvm": true,
+        "market": {
+          "binancePair": "ETHUSDT",
+          "coingeckoId": "ethereum"
+        },
+        "ui": {
+          "colorBg": "0xFF0420",
+          "badgeColor": "0xFF0420",
+          "mark": "O",
+          "homeSort": 8
+        }
       }
     },
     {
@@ -251,7 +342,22 @@
       },
       "status": "active",
       "enabled": true,
-      "tags": []
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "switchableEvm": true,
+        "market": {
+          "binancePair": "ETHUSDT",
+          "coingeckoId": "ethereum"
+        },
+        "ui": {
+          "colorBg": "0x0052FF",
+          "badgeColor": "0x0052FF",
+          "mark": "B",
+          "homeSort": 6
+        }
+      }
     },
     {
       "sortIndex": 7,
@@ -259,7 +365,7 @@
       "chainKey": "evm-avalanche-43114",
       "caip2": "eip155:43114",
       "family": "evm",
-      "displayName": "Avalanche Mainnet",
+      "displayName": "Avalanche",
       "shortName": "Avalanche",
       "networkKind": "mainnet",
       "isTestnet": false,
@@ -287,6 +393,21 @@
       "tags": [],
       "ui": {
         "colorBg": "0xE92734"
+      },
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "switchableEvm": true,
+        "market": {
+          "binancePair": "AVAXUSDT",
+          "coingeckoId": "avalanche-2"
+        },
+        "ui": {
+          "colorBg": "0xE84142",
+          "badgeColor": "0xE84142",
+          "mark": "A",
+          "homeSort": 9
+        }
       }
     },
     {
@@ -723,6 +844,116 @@
       "status": "active",
       "enabled": true,
       "tags": []
+    },
+    {
+      "sortIndex": 21,
+      "list": "featured",
+      "chainKey": "bitcoin-mainnet",
+      "caip2": "bip122:000000000019d6689c085ae165831e93",
+      "family": "bitcoin",
+      "displayName": "Bitcoin",
+      "shortName": "btc",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "decimals": 8
+      },
+      "icon": {
+        "default": "tokens/bitcoin/BTC.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "market": {
+          "binancePair": "BTCUSDT",
+          "coingeckoId": "bitcoin"
+        },
+        "ui": {
+          "colorBg": "0xF7931A",
+          "badgeColor": "0xF7931A",
+          "mark": "₿",
+          "homeSort": 0
+        },
+        "aliases": [
+          "bip122:000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"
+        ]
+      }
+    },
+    {
+      "sortIndex": 22,
+      "list": "featured",
+      "chainKey": "tron-mainnet",
+      "caip2": "tron:0x2b6653dc",
+      "family": "tron",
+      "displayName": "TRON",
+      "shortName": "trx",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "TRON",
+        "symbol": "TRX",
+        "decimals": 6
+      },
+      "icon": {
+        "default": "tokens/tron/TRX.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "wallet": {
+        "livePortfolio": true,
+        "market": {
+          "binancePair": "TRXUSDT",
+          "coingeckoId": "tron"
+        },
+        "ui": {
+          "colorBg": "0xFF060A",
+          "badgeColor": "0xFF060A",
+          "mark": "T",
+          "homeSort": 3
+        },
+        "aliases": [
+          "tron:mainnet"
+        ]
+      }
+    },
+    {
+      "sortIndex": 23,
+      "list": "featured",
+      "chainKey": "polkadot-mainnet",
+      "caip2": "polkadot:91b171bb158e2d3848fa23a9f1c25182",
+      "family": "polkadot",
+      "displayName": "Polkadot",
+      "shortName": "dot",
+      "networkKind": "mainnet",
+      "isTestnet": false,
+      "nativeCurrency": {
+        "name": "Polkadot",
+        "symbol": "DOT",
+        "decimals": 10
+      },
+      "icon": {
+        "default": "tokens/polkadot/DOT.png"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": [],
+      "wallet": {
+        "livePortfolio": false,
+        "market": {
+          "binancePair": "DOTUSDT",
+          "coingeckoId": "polkadot"
+        },
+        "ui": {
+          "colorBg": "0xE6007A",
+          "badgeColor": "0xE6007A",
+          "mark": "●"
+        }
+      }
     }
   ],
   "cbPublished": []

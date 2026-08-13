@@ -9,7 +9,8 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 - `manifest.v1.json` — 总索引 + 文件 sha256
 - `chains/catalog.v1.json` — **双列表**：`featured[]`（精选）+ `cbPublished[]`（cb 一键发公链）
 - `chains/public-evm.v1.json` — 公开 EVM 网络导入池（未进精选，可晋升）
-- `chains/rpc.v1.json` — 每链 `urls[]`，`urls[0]` 为主用
+- `chains/rpc.v1.json` — 每链 `urls[]`，`urls[0]` 为主用；**钱包客户端直接读此文件**（无全链 RPC 网关）
+- `chains/catalog.v1.json` 每条链可选 **`wallet`** 块 — 首页/live/swap/market/UI 等产品字段（见下）
 - **`tokens/catalog.v1.json`** — **精选代币扁平表**（含 symbol / name / caip2 / chainName / address / tokenKey）
 - **`tokens/by-chain.v1.json`** — **按链分组**（先选链，再列该链代币）
 - **`tokens/browse.html`** — 浏览器可搜索的代币表（[打开](https://static.cb.tools/tokens/browse.html)）
@@ -21,6 +22,35 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 - `risk/hints.v1.json` — **自有风控提示**（origin / address / token / rpc；禁止第三方钱包名单）
 
 规范见 monorepo：`mo-wallet-app/docs/0721update/wallet-static-config-git-hosting.md`
+
+## 钱包 RPC（`chains/rpc.v1.json`）
+
+- Extension **不**内置 per-chain RPC；SW/Popup 从 CDN 快照读 `rpc.v1`，按 `caip2` 匹配 `urls[]`。
+- 只有 URL 的 **origin** 已在 extension 安装包 `optional-host-permissions.json` 里审查过的链，才会 `livePortfolio`（否则 fail-closed 仅展示）。
+- 新增 RPC host：先在 `mo-wallet-app/apps/extension/security/optional-host-permissions.json` 加 origin 并发版 extension，再在 `rpc.v1` 里配置 URL。
+- `urls` 顺序即客户端 fallback 顺序；优先放稳定、已在 manifest 的节点。
+
+## 钱包链产品字段（`catalog.v1.json` → `wallet`）
+
+首页是否展示、排序、swap、行情对等**全部在此配置**，extension `seed` 仅保留 family/slip44 安全根：
+
+```json
+"wallet": {
+  "livePortfolio": true,
+  "deriveFromEvmAddress": true,
+  "switchableEvm": true,
+  "market": { "binancePair": "BNBUSDT", "coingeckoId": "binancecoin" },
+  "ui": { "colorBg": "0xF0B90B", "badgeColor": "0xF0B90B", "mark": "B", "homeSort": 2 },
+  "swap": { "dexKind": "univ2", "router": "0x10ED...", "wrappedNative": "0xbb4..." },
+  "aliases": ["tron:mainnet"]
+}
+```
+
+本地校验 RPC host（需在 monorepo 根目录，能读到 `mo-wallet-app`）：
+
+```bash
+node scripts/validate-wallet-rpc-hosts.mjs
+```
 
 ## 代币怎么查（必读）
 
