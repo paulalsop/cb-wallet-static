@@ -6,8 +6,9 @@
       "caip2": "eip155:1",
       "urls": [
         "https://ethereum.publicnode.com",
+        "https://ethereum-rpc.publicnode.com",
         "https://cloudflare-eth.com",
-        "https://api.mycryptoapi.com/eth"
+        "https://1rpc.io/eth"
       ]
     },
     {
@@ -18,15 +19,14 @@
         "https://bsc.publicnode.com",
         "https://bsc-dataseed1.binance.org",
         "https://bsc-dataseed2.binance.org",
-        "https://rpc.ankr.com/bsc"
+        "https://1rpc.io/bnb"
       ]
     },
     {
       "caip2": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
       "urls": [
         "https://api.mainnet-beta.solana.com",
-        "https://solana-rpc.publicnode.com",
-        "https://rpc.ankr.com/solana"
+        "https://solana-rpc.publicnode.com"
       ],
       "sortIndex": 2
     },
@@ -35,8 +35,8 @@
       "caip2": "eip155:137",
       "urls": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon-rpc.com",
-        "https://rpc-mainnet.matic.network"
+        "https://polygon.drpc.org",
+        "https://1rpc.io/matic"
       ]
     },
     {
@@ -44,7 +44,8 @@
       "caip2": "eip155:42161",
       "urls": [
         "https://arb1.arbitrum.io/rpc",
-        "https://arbitrum.publicnode.com"
+        "https://arbitrum.publicnode.com",
+        "https://1rpc.io/arb"
       ]
     },
     {
@@ -53,7 +54,7 @@
       "urls": [
         "https://mainnet.optimism.io",
         "https://optimism.publicnode.com",
-        "https://mainnet.optimism.io/"
+        "https://1rpc.io/op"
       ]
     },
     {
@@ -61,7 +62,8 @@
       "caip2": "eip155:8453",
       "urls": [
         "https://mainnet.base.org",
-        "https://base.publicnode.com"
+        "https://base.publicnode.com",
+        "https://1rpc.io/base"
       ]
     },
     {
@@ -69,17 +71,17 @@
       "caip2": "eip155:43114",
       "urls": [
         "https://api.avax.network/ext/bc/C/rpc",
-        "https://avalanche.publicnode.com"
+        "https://avalanche.publicnode.com",
+        "https://1rpc.io/avax/c"
       ]
     },
     {
       "sortIndex": 8,
       "caip2": "eip155:250",
       "urls": [
-        "https://rpc.ftm.tools",
-        "https://fantom.publicnode.com",
         "https://rpcapi.fantom.network",
-        "https://fantomscan.io/rpc"
+        "https://fantom.drpc.org",
+        "https://1rpc.io/ftm"
       ]
     },
     {
@@ -88,9 +90,7 @@
       "urls": [
         "https://rpc.gnosischain.com",
         "https://gnosis.publicnode.com",
-        "https://rpc.xdaichain.com",
-        "https://xdai.poanetwork.dev",
-        "https://dai.poa.network"
+        "https://1rpc.io/gnosis"
       ]
     },
     {
@@ -99,7 +99,7 @@
       "urls": [
         "https://mainnet.era.zksync.io",
         "https://zksync.drpc.org",
-        "https://zksync2-mainnet.zksync.io"
+        "https://1rpc.io/zksync2-era"
       ]
     },
     {
@@ -107,7 +107,8 @@
       "caip2": "eip155:59144",
       "urls": [
         "https://rpc.linea.build",
-        "https://linea.publicnode.com"
+        "https://linea.publicnode.com",
+        "https://1rpc.io/linea"
       ]
     },
     {
@@ -115,7 +116,8 @@
       "caip2": "eip155:534352",
       "urls": [
         "https://rpc.scroll.io",
-        "https://scroll.publicnode.com"
+        "https://scroll.publicnode.com",
+        "https://1rpc.io/scroll"
       ]
     },
     {
@@ -123,7 +125,8 @@
       "caip2": "eip155:5000",
       "urls": [
         "https://rpc.mantle.xyz",
-        "https://mantle.publicnode.com"
+        "https://mantle.publicnode.com",
+        "https://1rpc.io/mantle"
       ]
     },
     {
@@ -132,7 +135,7 @@
       "urls": [
         "https://rpc.blast.io",
         "https://blast.publicnode.com",
-        "https://blast.blockpi.network/v1/rpc/public"
+        "https://blast.drpc.org"
       ]
     },
     {
@@ -140,7 +143,8 @@
       "caip2": "eip155:42220",
       "urls": [
         "https://forno.celo.org",
-        "https://celo.publicnode.com"
+        "https://celo.publicnode.com",
+        "https://1rpc.io/celo"
       ]
     },
     {
@@ -148,18 +152,17 @@
       "caip2": "eip155:25",
       "urls": [
         "https://evm.cronos.org",
-        "https://cronosrpc-1.xstaking.sg",
-        "https://evm-cronos.crypto.org",
-        "https://cronos-rpc.heavenswail.one",
-        "https://cronos-rpc.elk.finance"
+        "https://cronos.publicnode.com",
+        "https://1rpc.io/cro"
       ]
     },
     {
       "sortIndex": 17,
       "caip2": "eip155:1284",
       "urls": [
-        "https://rpc.api.moonbeam.network",
-        "https://moonbeam.publicnode.com"
+        "https://moonbeam.api.onfinality.io/public",
+        "https://moonbeam.drpc.org",
+        "https://1rpc.io/glmr"
       ]
     },
     {
@@ -175,7 +178,9 @@
       "sortIndex": 19,
       "caip2": "eip155:1088",
       "urls": [
-        "https://andromeda.metis.io/?owner=1088"
+        "https://andromeda.metis.io/?owner=1088",
+        "https://metis-rpc.publicnode.com",
+        "https://metis.drpc.org"
       ]
     },
     {
@@ -183,7 +188,8 @@
       "caip2": "eip155:1101",
       "urls": [
         "https://zkevm-rpc.com",
-        "https://polygon-zkevm.drpc.org"
+        "https://polygon-zkevm.drpc.org",
+        "https://1rpc.io/polygon/zkevm"
       ]
     },
     {
@@ -772,12 +778,10 @@
       "sortIndex": 101,
       "caip2": "eip155:97",
       "urls": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://data-seed-prebsc-1-s3.binance.org:8545",
-        "https://data-seed-prebsc-2-s3.binance.org:8545"
+        "https://bsc-testnet-rpc.publicnode.com",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.bnbchain.org",
+        "https://data-seed-prebsc-1-s1.binance.org:8545"
       ]
     },
     {
@@ -15533,14 +15537,33 @@
       "sortIndex": 2152,
       "caip2": "tron:0x2b6653dc",
       "urls": [
-        "https://api.trongrid.io"
+        "https://api.trongrid.io",
+        "https://tron-rpc.publicnode.com",
+        "https://api.tronstack.io"
       ]
     },
     {
       "sortIndex": 2153,
       "caip2": "bip122:000000000019d6689c085ae165831e93",
       "urls": [
-        "https://blockstream.info/api"
+        "https://blockstream.info/api",
+        "https://mempool.space/api"
+      ]
+    },
+    {
+      "sortIndex": 2154,
+      "caip2": "polkadot:91b171bb158e2d3848fa23a9f1c25182",
+      "urls": [
+        "https://rpc.polkadot.io",
+        "https://polkadot-rpc.publicnode.com",
+        "https://polkadot.api.onfinality.io/public"
+      ]
+    },
+    {
+      "sortIndex": 2155,
+      "caip2": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
+      "urls": [
+        "https://api.devnet.solana.com"
       ]
     }
   ]
