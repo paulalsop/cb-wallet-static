@@ -15528,6 +15528,20 @@
       "urls": [
         "https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"
       ]
+    },
+    {
+      "sortIndex": 2152,
+      "caip2": "tron:0x2b6653dc",
+      "urls": [
+        "https://api.trongrid.io"
+      ]
+    },
+    {
+      "sortIndex": 2153,
+      "caip2": "bip122:000000000019d6689c085ae165831e93",
+      "urls": [
+        "https://blockstream.info/api"
+      ]
     }
   ]
 }

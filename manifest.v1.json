@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-07T07:41:15.700Z",
+  "publishedAt": "2026-08-13T05:00:00.000Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
-      "sha256": "cc909c0e07003c4a8667810a00c780e3563c27691b89c1d0a4b039b72604b99a"
+      "sha256": "702467c56b35bc6744d49206896b5047aa17bbbecacf76365ff29823803b5adf"
     },
     "chains.rpc": {
       "path": "chains/rpc.v1.json",
-      "sha256": "d76872de5ad124c0ade5b83af2cd69e7c5423394a62d73c4e6bd96221c9c221f"
+      "sha256": "4ebc507a13207305a1a4253392762f687e91d9b84ab81ac7c1319664985851b7"
     },
     "bridges.network": {
       "path": "bridges/network-bridge.v1.json",
