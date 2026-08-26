@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "catalogId": "cb-wallet-remote-chains-v1",
-  "updatedAt": "2026-08-13T05:00:00.000Z",
+  "updatedAt": "2026-08-25T10:30:00.000Z",
   "featured": [
     {
       "sortIndex": 0,
@@ -952,6 +952,104 @@
           "colorBg": "0xE6007A",
           "badgeColor": "0xE6007A",
           "mark": "●"
+        }
+      }
+    },
+    {
+      "sortIndex": 24,
+      "list": "featured",
+      "chainKey": "evm-bsc-testnet",
+      "caip2": "eip155:97",
+      "family": "evm",
+      "displayName": "BNB Smart Chain Testnet",
+      "shortName": "BSC-T",
+      "networkKind": "testnet",
+      "isTestnet": true,
+      "nativeCurrency": {
+        "name": "tBNB",
+        "symbol": "tBNB",
+        "decimals": 18
+      },
+      "evm": {
+        "chainId": 97,
+        "supportsEip1559": true
+      },
+      "icon": {
+        "default": "chains/eip155-56.png"
+      },
+      "explorers": [
+        {
+          "sortIndex": 0,
+          "name": "BscScan Testnet",
+          "url": "https://testnet.bscscan.com"
+        }
+      ],
+      "infoUrl": "https://www.bnbchain.org",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-25T10:30:00.000Z",
+        "source": "featured-bsc-sol-testnet"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": ["testnet"],
+      "wallet": {
+        "livePortfolio": true,
+        "deriveFromEvmAddress": true,
+        "ui": {
+          "colorBg": "0xF0B90B",
+          "badgeColor": "0xF0B90B",
+          "mark": "tB",
+          "homeSort": 100
+        }
+      }
+    },
+    {
+      "sortIndex": 25,
+      "list": "featured",
+      "chainKey": "solana-devnet",
+      "caip2": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
+      "family": "solana",
+      "displayName": "Solana Devnet",
+      "shortName": "SOL-D",
+      "networkKind": "testnet",
+      "isTestnet": true,
+      "nativeCurrency": {
+        "name": "Solana",
+        "symbol": "SOL",
+        "decimals": 9
+      },
+      "icon": {
+        "default": "chains/solana-mainnet.png"
+      },
+      "explorers": [
+        {
+          "sortIndex": 0,
+          "name": "Solscan Devnet",
+          "url": "https://solscan.io?cluster=devnet"
+        },
+        {
+          "sortIndex": 1,
+          "name": "Solana Explorer Devnet",
+          "url": "https://explorer.solana.com?cluster=devnet"
+        }
+      ],
+      "infoUrl": "https://solana.com",
+      "publisher": {
+        "kind": "curated",
+        "publishedAt": "2026-08-25T10:30:00.000Z",
+        "source": "featured-bsc-sol-testnet"
+      },
+      "status": "active",
+      "enabled": true,
+      "tags": ["testnet"],
+      "wallet": {
+        "livePortfolio": true,
+        "ui": {
+          "colorBg": "0x9945FF",
+          "badgeColor": "0x14F195",
+          "mark": "◎",
+          "homeSort": 101
         }
       }
     }
