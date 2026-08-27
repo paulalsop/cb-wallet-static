@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-posters-v1",
+  "updatedAt": "2026-08-27T08:05:00.000Z",
+  "imageBase": "https://static.cb.tools/posters/",
+  "rule": "Primary key is id. sortIndex is list order — clients must not reorder. Image URL = imageBase + image. href null means display-only.",
+  "itemCount": 1,
+  "items": [
+    {
+      "id": "discover-more-tokens",
+      "sortIndex": 0,
+      "slots": [
+        "market"
+      ],
+      "status": "active",
+      "enabled": true,
+      "title": "Discover More Tokens",
+      "image": "discover-more-tokens.png",
+      "width": 353,
+      "height": 125,
+      "href": null,
+      "source": {
+        "figmaFile": "iYBpGSTKRX4NE521Jtez8a",
+        "figmaNode": "712:3765"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-27T06:31:04.605Z",
+  "publishedAt": "2026-08-27T08:05:00.000Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -45,7 +45,12 @@
     "risk.hints": {
       "path": "risk/hints.v1.json",
       "sha256": "62cbea12c09d1bf4529a62113c5100f7facbcc43a7a7d5146482787a5c17c0f4"
+    },
+    "posters.catalog": {
+      "path": "posters/catalog.v1.json",
+      "sha256": "8e7ae55c47a0b17c01affd1d7b4d1ab36c09fc49219f3a0334141fbbfdd66d15"
     }
   },
-  "iconBase": "https://static.cb.tools/icons/"
+  "iconBase": "https://static.cb.tools/icons/",
+  "posterBase": "https://static.cb.tools/posters/"
 }
