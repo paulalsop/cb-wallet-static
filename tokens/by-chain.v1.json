@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "catalogId": "cb-wallet-tokens-by-chain-v1",
-  "updatedAt": "2026-08-06T05:17:04.361Z",
+  "updatedAt": "2026-08-27T06:31:04.605Z",
   "rule": "Query tokens by caip2 first. Symbol is not unique across chains.",
   "chainCount": 10,
-  "tokenCount": 425,
+  "tokenCount": 427,
   "chains": [
     {
       "sortIndex": 0,
@@ -4338,7 +4338,7 @@
       "chainName": "Avalanche C-Chain",
       "family": "evm",
       "chainId": 43114,
-      "tokenCount": 46,
+      "tokenCount": 47,
       "tokens": [
         {
           "sortIndex": 0,
@@ -4540,6 +4540,24 @@
         },
         {
           "sortIndex": 11,
+          "tokenKey": "eip155:43114/erc20:0xd586e7f844cea2f87f50117613d92ecb47fd0d29",
+          "symbol": "DAI",
+          "name": "Dai Stablecoin",
+          "address": "0xd586E7F844cEa2F87f50117613D92EcB47Fd0D29",
+          "addressKey": "0xd586e7f844cea2f87f50117613d92ecb47fd0d29",
+          "decimals": 18,
+          "displayHint": "DAI · eip155:43114",
+          "icon": {
+            "default": "tokens/eip155-43114/0xd586e7f844cea2f87f50117613d92ecb47fd0d29.png"
+          },
+          "tags": [
+            "stablecoin",
+            "dai"
+          ],
+          "enabled": true
+        },
+        {
+          "sortIndex": 12,
           "tokenKey": "eip155:43114/erc20:0xd586e7f844cea2f87f50152665bcbc2c279d8d70",
           "symbol": "DAI.e",
           "name": "DAI.e Token",
@@ -4557,7 +4575,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 12,
+          "sortIndex": 13,
           "tokenKey": "eip155:43114/erc20:0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17",
           "symbol": "DYP",
           "name": "DeFi Yield Protocol",
@@ -4575,7 +4593,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 13,
+          "sortIndex": 14,
           "tokenKey": "eip155:43114/erc20:0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
           "symbol": "EURC",
           "name": "Euro Coin",
@@ -4593,7 +4611,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 14,
+          "sortIndex": 15,
           "tokenKey": "eip155:43114/erc20:0xc4b06f17eccb2215a5dbf042c672101fc20daf55",
           "symbol": "FLUX",
           "name": "Flux",
@@ -4611,7 +4629,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 15,
+          "sortIndex": 16,
           "tokenKey": "eip155:43114/erc20:0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
           "symbol": "FRAX",
           "name": "Frax",
@@ -4629,7 +4647,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 16,
+          "sortIndex": 17,
           "tokenKey": "eip155:43114/erc20:0x214db107654ff987ad859f34125307783fc8e387",
           "symbol": "FXS",
           "name": "Frax Share",
@@ -4647,7 +4665,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 17,
+          "sortIndex": 18,
           "tokenKey": "eip155:43114/erc20:0x62edc0692bd897d2295872a9ffcac5425011c661",
           "symbol": "GMX",
           "name": "GMX",
@@ -4665,7 +4683,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 18,
+          "sortIndex": 19,
           "tokenKey": "eip155:43114/erc20:0x8a0cac13c7da965a312f08ea4229c37869e85cb9",
           "symbol": "GRT",
           "name": "The Graph",
@@ -4683,7 +4701,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 19,
+          "sortIndex": 20,
           "tokenKey": "eip155:43114/erc20:0x26debd39d5ed069770406fca10a0e4f8d2c743eb",
           "symbol": "GUN",
           "name": "GUNZ",
@@ -4701,7 +4719,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 20,
+          "sortIndex": 21,
           "tokenKey": "eip155:43114/erc20:0x5947bb275c521040051d82396192181b413227a3",
           "symbol": "LINK",
           "name": "ChainLink Token",
@@ -4719,7 +4737,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 21,
+          "sortIndex": 22,
           "tokenKey": "eip155:43114/erc20:0x130966628846bfd36ff31a822705796e8cb8c18d",
           "symbol": "MIM",
           "name": "Magic Internet Money",
@@ -4737,7 +4755,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 22,
+          "sortIndex": 23,
           "tokenKey": "eip155:43114/erc20:0x88128fd4b259552a9a1d457f435a6527aab72d42",
           "symbol": "MKR",
           "name": "Maker",
@@ -4755,7 +4773,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 23,
+          "sortIndex": 24,
           "tokenKey": "eip155:43114/erc20:0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
           "symbol": "MULTI",
           "name": "Multichain",
@@ -4773,7 +4791,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 24,
+          "sortIndex": 25,
           "tokenKey": "eip155:43114/erc20:0xfb98b335551a418cd0737375a2ea0ded62ea213b",
           "symbol": "PENDLE",
           "name": "Pendle",
@@ -4791,7 +4809,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 25,
+          "sortIndex": 26,
           "tokenKey": "eip155:43114/erc20:0x97cd1cfe2ed5712660bb6c14053c0ecb031bff7d",
           "symbol": "RAI",
           "name": "Rai Reflex Index",
@@ -4809,7 +4827,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 26,
+          "sortIndex": 27,
           "tokenKey": "eip155:43114/erc20:0xbec243c995409e6520d7c41e404da5deba4b209b",
           "symbol": "SNX",
           "name": "Synthetix Network Token",
@@ -4827,7 +4845,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 27,
+          "sortIndex": 28,
           "tokenKey": "eip155:43114/erc20:0xfe6b19286885a4f7f55adad09c3cd1f906d2478f",
           "symbol": "SOL",
           "name": "SOL Wormhole",
@@ -4845,7 +4863,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 28,
+          "sortIndex": 29,
           "tokenKey": "eip155:43114/erc20:0xce1bffbd5374dac86a2893119683f4911a2f7814",
           "symbol": "SPELL",
           "name": "Spell Token",
@@ -4863,7 +4881,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 29,
+          "sortIndex": 30,
           "tokenKey": "eip155:43114/erc20:0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
           "symbol": "STG",
           "name": "Stargate Finance",
@@ -4881,7 +4899,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 30,
+          "sortIndex": 31,
           "tokenKey": "eip155:43114/erc20:0x37b608519f91f70f2eeb0e5ed9af4061722e4f76",
           "symbol": "SUSHI",
           "name": "Sushi",
@@ -4899,7 +4917,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 31,
+          "sortIndex": 32,
           "tokenKey": "eip155:43114/erc20:0x1f1e7c893855525b303f99bdf5c3c05be09ca251",
           "symbol": "SYN",
           "name": "Synapse",
@@ -4917,7 +4935,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 32,
+          "sortIndex": 33,
           "tokenKey": "eip155:43114/erc20:0xfdca15bd55f350a36e63c47661914d80411d2c22",
           "symbol": "TAO",
           "name": "Bittensor",
@@ -4935,7 +4953,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 33,
+          "sortIndex": 34,
           "tokenKey": "eip155:43114/erc20:0x3bd2b1c7ed8d396dbb98ded3aebb41350a5b2339",
           "symbol": "UMA",
           "name": "UMA Voting Token v1",
@@ -4953,7 +4971,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 34,
+          "sortIndex": 35,
           "tokenKey": "eip155:43114/erc20:0x8ebaf22b6f053dffeaf46f4dd9efa95d89ba8580",
           "symbol": "UNI.e",
           "name": "UNI.e Token",
@@ -4971,7 +4989,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 35,
+          "sortIndex": 36,
           "tokenKey": "eip155:43114/erc20:0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
           "symbol": "USDC",
           "name": "USDC Token",
@@ -4991,7 +5009,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 36,
+          "sortIndex": 37,
           "tokenKey": "eip155:43114/erc20:0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
           "symbol": "USDT",
           "name": "Tether USD",
@@ -5011,7 +5029,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 37,
+          "sortIndex": 38,
           "tokenKey": "eip155:43114/erc20:0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
           "symbol": "WAVAX",
           "name": "Wrapped AVAX",
@@ -5029,7 +5047,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 38,
+          "sortIndex": 39,
           "tokenKey": "eip155:43114/erc20:0x50b7545627a5162f82a992c33b87adc75187b218",
           "symbol": "WBTC",
           "name": "Wrapped BTC",
@@ -5047,7 +5065,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 39,
+          "sortIndex": 40,
           "tokenKey": "eip155:43114/erc20:0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
           "symbol": "WETH",
           "name": "Wrapped Ether",
@@ -5065,7 +5083,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 40,
+          "sortIndex": 41,
           "tokenKey": "eip155:43114/erc20:0xabc9547b534519ff73921b1fba6e672b5f58d083",
           "symbol": "WOO",
           "name": "WOO Network",
@@ -5083,7 +5101,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 41,
+          "sortIndex": 42,
           "tokenKey": "eip155:43114/erc20:0x2775d5105276781b4b85ba6ea6a6653beed1dd32",
           "symbol": "XAUt0",
           "name": "Tether Gold",
@@ -5101,7 +5119,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 42,
+          "sortIndex": 43,
           "tokenKey": "eip155:43114/erc20:0x9eaac1b23d935365bd7b542fe22ceee2922f52dc",
           "symbol": "YFI",
           "name": "yearn finance",
@@ -5119,7 +5137,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 43,
+          "sortIndex": 44,
           "tokenKey": "eip155:43114/erc20:0xb6314518b61b4864162c7ae7fdc36261e0a14c4b",
           "symbol": "YOM",
           "name": "YOM",
@@ -5137,7 +5155,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 44,
+          "sortIndex": 45,
           "tokenKey": "eip155:43114/erc20:0x6985884c4392d348587b19cb9eaaf157f13271cd",
           "symbol": "ZRO",
           "name": "LayerZero",
@@ -5155,7 +5173,7 @@
           "enabled": true
         },
         {
-          "sortIndex": 45,
+          "sortIndex": 46,
           "tokenKey": "eip155:43114/erc20:0x596fa47043f99a4e0f122243b841e55375cde0d2",
           "symbol": "ZRX",
           "name": "0x Protocol Token",
@@ -6479,7 +6497,7 @@
       "chainName": "Base",
       "family": "evm",
       "chainId": 8453,
-      "tokenCount": 61,
+      "tokenCount": 62,
       "tokens": [
         {
           "sortIndex": 0,
@@ -7571,6 +7589,24 @@
             "usdc"
           ],
           "enabled": true
+        },
+        {
+          "sortIndex": 61,
+          "tokenKey": "eip155:8453/erc20:0xfde4c96c8593536e31f787da6bfdab9a9434e8d1",
+          "symbol": "USDT",
+          "name": "Tether USD",
+          "address": "0xfde4C96c8593536E31F787dA6BFdAB9A9434E8d1",
+          "addressKey": "0xfde4c96c8593536e31f787da6bfdab9a9434e8d1",
+          "decimals": 6,
+          "displayHint": "USDT · eip155:8453",
+          "icon": {
+            "default": "tokens/eip155-8453/0xfde4c96c8593536e31f787da6bfdab9a9434e8d1.png"
+          },
+          "tags": [
+            "stablecoin",
+            "usdt"
+          ],
+          "enabled": true
         }
       ]
     },
@@ -7763,15 +7799,15 @@
         },
         {
           "sortIndex": 1,
-          "tokenKey": "tron:mainnet/trc20:TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
+          "tokenKey": "tron:mainnet/trc20:TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
           "symbol": "USDT",
           "name": "Tether USD",
-          "address": "TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
-          "addressKey": "TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
+          "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "addressKey": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
           "decimals": 6,
           "displayHint": "USDT · tron:mainnet",
           "icon": {
-            "default": "tokens/tron/TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w.png"
+            "default": "tokens/tron/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t.png"
           },
           "tags": [
             "stablecoin",

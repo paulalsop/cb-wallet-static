@@ -1,6 +1,6 @@
 # Token catalog (queryable)
 
-Updated: `2026-08-06T05:17:04.361Z`
+Updated: `2026-08-27T06:31:04.605Z`
 
 Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as one asset across chains.
 
@@ -274,7 +274,7 @@ Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as
 | USDC | USD Coin | `0xaf88d065e77c8cC2239327C5EDb3A432268e5831` | `eip155:42161/erc20:0xaf88d065e77c8cc2239327c5edb3a432268e5831` |
 | USDT | Tether USD | `0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9` | `eip155:42161/erc20:0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9` |
 
-### Avalanche C-Chain (`eip155:43114`) — 46 tokens
+### Avalanche C-Chain (`eip155:43114`) — 47 tokens
 
 | symbol | name | address | tokenKey |
 |---|---|---|---|
@@ -289,6 +289,7 @@ Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as
 | BUSD | Binance USD | `0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39` | `eip155:43114/erc20:0x9c9e5fd8bbc25984b178fdce6117defa39d2db39` |
 | COMP | Compound | `0xc3048E19E76CB9a3Aa9d77D8C03c29Fc906e2437` | `eip155:43114/erc20:0xc3048e19e76cb9a3aa9d77d8c03c29fc906e2437` |
 | CTSI | Cartesi | `0x6b289CCeAA8639e3831095D75A3e43520faBf552` | `eip155:43114/erc20:0x6b289cceaa8639e3831095d75a3e43520fabf552` |
+| DAI | Dai Stablecoin | `0xd586E7F844cEa2F87f50117613D92EcB47Fd0D29` | `eip155:43114/erc20:0xd586e7f844cea2f87f50117613d92ecb47fd0d29` |
 | DAI.e | DAI.e Token | `0xd586E7F844cEa2F87f50152665BCbc2C279D8d70` | `eip155:43114/erc20:0xd586e7f844cea2f87f50152665bcbc2c279d8d70` |
 | DYP | DeFi Yield Protocol | `0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17` | `eip155:43114/erc20:0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17` |
 | EURC | Euro Coin | `0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD` | `eip155:43114/erc20:0xc891eb4cbdeff6e073e859e987815ed1505c2acd` |
@@ -401,7 +402,7 @@ Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as
 | WBNB | Wrapped BNB | `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c` | `eip155:56/erc20:0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c` |
 | WEB2 | WEB2 Inu | `0x00998d97c22B564d1dAF39d493e74C21D83fffbA` | `eip155:56/erc20:0x00998d97c22b564d1daf39d493e74c21d83fffba` |
 
-### Base (`eip155:8453`) — 61 tokens
+### Base (`eip155:8453`) — 62 tokens
 
 | symbol | name | address | tokenKey |
 |---|---|---|---|
@@ -466,6 +467,7 @@ Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as
 | O | o1.exchange | `0x182FA643E5f29d5EcA75e7b9CF9336A3fe4620b2` | `eip155:8453/erc20:0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2` |
 | ODOS | Odos Token | `0xca73ed1815e5915489570014e024b7EbE65dE679` | `eip155:8453/erc20:0xca73ed1815e5915489570014e024b7ebe65de679` |
 | USDC | USD Coin | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | `eip155:8453/erc20:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913` |
+| USDT | Tether USD | `0xfde4C96c8593536E31F787dA6BFdAB9A9434E8d1` | `eip155:8453/erc20:0xfde4c96c8593536e31f787da6bfdab9a9434e8d1` |
 
 ### Solana (`solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`) — 8 tokens
 
@@ -485,5 +487,5 @@ Primary key: **`tokenKey` = caip2 + asset**. Do **not** treat `USDT` / `USDC` as
 | symbol | name | address | tokenKey |
 |---|---|---|---|
 | TRX | TRON | `native` | `tron:mainnet/native` |
-| USDT | Tether USD | `TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w` | `tron:mainnet/trc20:TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w` |
+| USDT | Tether USD | `TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t` | `tron:mainnet/trc20:TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t` |
 
