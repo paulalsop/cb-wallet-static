@@ -33,6 +33,7 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 - `sources/` — 导入来源与归因（见 `ATTRIBUTION.md`）
 - `bridges/network-bridge.v1.json` — 桥发现层
 - `risk/hints.v1.json` — **自有风控提示**（origin / address / token / rpc；禁止第三方钱包名单）
+- **`posters/catalog.v1.json`** — **运营海报目录**（行情槽等）；图在 `posters/*.png`
 
 规范见 monorepo：`mo-wallet-app/docs/0721update/wallet-static-config-git-hosting.md`
 
@@ -73,6 +74,8 @@ node scripts/validate-wallet-rpc-hosts.mjs
 | 机器拉全表 | https://static.cb.tools/tokens/catalog.v1.json |
 | 机器按链查 | https://static.cb.tools/tokens/by-chain.v1.json |
 | Markdown 索引 | https://static.cb.tools/tokens/README.md |
+| 运营海报目录 | https://static.cb.tools/posters/catalog.v1.json |
+| 当前海报图 | https://static.cb.tools/posters/discover-more-tokens.png |
 
 **主键是 `tokenKey`（`caip2` + 资产），不是 symbol。**  
 同名 `USDT` 在 ETH / BSC / TRON 是不同行，`displayHint` 固定带链，例如 `USDT · eip155:56`。
