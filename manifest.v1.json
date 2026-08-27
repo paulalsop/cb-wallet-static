@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-25T10:30:00.000Z",
+  "publishedAt": "2026-08-27T06:31:04.605Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -20,7 +20,7 @@
     },
     "tokens.stablecoins": {
       "path": "tokens/stablecoins.v1.json",
-      "sha256": "6e9dbf131fa5d209141489ac8c675662f4993c51767f4fc1a09dc1b53a5ec318"
+      "sha256": "4817b22f4a411353ff6156bb1d55bbc46e6f6527bd42adcb0a9d830a451273bb"
     },
     "tokens.bscPopular": {
       "path": "tokens/bsc.popular.v1.json",
@@ -32,11 +32,11 @@
     },
     "tokens.catalog": {
       "path": "tokens/catalog.v1.json",
-      "sha256": "000ef9991ab97d6f11985e7270e97b7bf3df667252dd007d4c2d1f1ee75a6c25"
+      "sha256": "37259e40700dc75c2176c406f1d729ab2eaac926d390f8b6002a4e6d306f71b2"
     },
     "tokens.byChain": {
       "path": "tokens/by-chain.v1.json",
-      "sha256": "3a2fb77fb1e7d847ff0d49f06fedafbb0f884ab9b72002a34eea2cdd42641a69"
+      "sha256": "66615286f2b831ceb2310bdf78ab5a84ea7ec43ba7807fbbae610017418a44f7"
     },
     "market.prices": {
       "path": "market/prices.v1.json",

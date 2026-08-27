@@ -4,6 +4,19 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 
 公开入口：[https://static.cb.tools/](https://static.cb.tools/)
 
+## Git 规则（强制）
+
+`main` 受 GitHub 分支保护：**禁止直推**（含仓库管理员、Cursor「同步更改」）。  
+`main` 一合进就会走 GitHub Pages，线上 `https://static.cb.tools` 跟着变，手机 / 扩展下拉才会吃到新 catalog。
+
+1. 从最新 `main` 拉功能分支（例如 `feat/…`、`chore/…`），**只推这个分支**。
+2. 开 Pull Request → `main`；至少 **1 个 approving review**。
+3. 在 GitHub 上 **Merge**。不要 `git push origin main`，不要点「同步更改 1个」。
+4. 合并后本地：`git checkout main && git pull`。
+5. 验收：`https://static.cb.tools/manifest.v1.json` 的 `publishedAt` / sha256 已更新。客户端要完全重启再下拉，热重载不够。
+
+本仓与 `mo-wallet-app` 独立，改动不写 `walletdocs/`。钱包运行时只打 `static.cb.tools`，不读你电脑上的这份目录。
+
 ## 结构
 
 - `manifest.v1.json` — 总索引 + 文件 sha256
@@ -114,7 +127,7 @@ node scripts/assert-sort.mjs
 
 ## 发布到 GitHub Pages
 
-1. 推送 `main`
+1. 按上文 **Git 规则**：功能分支 PR **merge 进 `main`**（不能直推）
 2. 仓 Settings → Pages → Source: **Deploy from a branch** → `main` / `/ (root)`（无需 Actions；当前 PAT 无 workflow 权限）
 3. 打开：`https://paulalsop.github.io/cb-wallet-static/manifest.v1.json`
 4. 自定义域名：`static.cb.tools`

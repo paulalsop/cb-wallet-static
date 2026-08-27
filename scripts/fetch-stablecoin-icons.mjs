@@ -87,19 +87,18 @@ const STABLES = [
     name: "Tether USD",
     caip2: "eip155:8453",
     chainId: 8453,
-    // Base has limited native USDT; common bridged listing
+    // Tether official USDT on Base (tether.to / basescan).
     address: "0xfde4C96c8593536E31F787dA6BFdAB9A9434E8d1",
     decimals: 6,
     twSlug: "base",
-    kind: "bridged",
-    optional: true,
+    kind: "native-issued",
   },
   {
     symbol: "USDT",
     name: "Tether USD",
     caip2: "tron:mainnet",
     family: "tron",
-    address: "TR7NHqjeKQxGTCi5q8t4xwpAUk3VPQW2w",
+    address: "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
     decimals: 6,
     twSlug: "tron",
     kind: "native-issued",
@@ -107,7 +106,7 @@ const STABLES = [
   {
     symbol: "USDT",
     name: "Tether USD",
-    caip2: "solana:mainnet",
+    caip2: "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
     family: "solana",
     address: "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
     decimals: 6,
@@ -200,13 +199,14 @@ const STABLES = [
   {
     symbol: "USDC",
     name: "USD Coin",
-    caip2: "solana:mainnet",
+    caip2: "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
     family: "solana",
     address: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
     decimals: 6,
     twSlug: "solana",
     kind: "native-issued",
   },
+  // Circle discontinued USDC on TRON (2024). Do not add TEkxi… as active.
 
   // —— DAI ——
   {
@@ -258,6 +258,49 @@ const STABLES = [
     decimals: 18,
     twSlug: "base",
     kind: "bridged",
+  },
+  {
+    symbol: "DAI",
+    name: "Dai Token",
+    caip2: "eip155:56",
+    chainId: 56,
+    address: "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+    decimals: 18,
+    twSlug: "smartchain",
+    kind: "bridged",
+  },
+  {
+    symbol: "DAI",
+    name: "Dai Stablecoin",
+    caip2: "eip155:43114",
+    chainId: 43114,
+    address: "0xd586E7F844cEa2F87f50117613D92EcB47Fd0D29",
+    decimals: 18,
+    twSlug: "avalanchec",
+    kind: "bridged",
+    note: "DAI.e on Avalanche C-Chain",
+  },
+
+  // —— other stables already published (keep in source so rebuild does not drop) ——
+  {
+    symbol: "FDUSD",
+    name: "First Digital USD",
+    caip2: "eip155:56",
+    chainId: 56,
+    address: "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+    decimals: 18,
+    twSlug: "smartchain",
+    kind: "native-issued",
+  },
+  {
+    symbol: "PYUSD",
+    name: "PayPal USD",
+    caip2: "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    family: "solana",
+    address: "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+    decimals: 6,
+    twSlug: "solana",
+    kind: "native-issued",
   },
 ];
 
@@ -356,20 +399,22 @@ async function main() {
     }
 
     if (!buf) {
-      // Branding fallback: copy Ethereum USDT/USDC pixels but keep chain-scoped path
-      if (row.symbol === "USDT" || row.symbol.startsWith("USDC")) {
-        const ethAddr =
-          row.symbol === "USDT"
-            ? "0xdac17f958d2ee523a2206206994597c13d831ec7"
-            : "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";
+      // Branding fallback: copy Ethereum USDT/USDC/DAI pixels but keep chain-scoped path
+      const ethFallback = {
+        USDT: "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        USDC: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "USDC.E": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        DAI: "0x6b175474e89094c44da98b954eedeac495271d0f",
+      }[row.symbol.toUpperCase()];
+      if (ethFallback) {
         const fallback = join(
           root,
           "icons/tokens/eip155-1",
-          `${ethAddr}.png`,
+          `${ethFallback}.png`,
         );
         if (existsSync(fallback)) {
           buf = readFileSync(fallback);
-          source = `fallback-branding:${fallback}`;
+          source = `fallback-branding:icons/tokens/eip155-1/${ethFallback}.png`;
         }
       }
     }
