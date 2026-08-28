@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "catalogId": "cb-wallet-dapps-v1",
+  "updatedAt": "2026-08-28T11:20:00.000Z",
+  "rule": "Primary key is id. sortIndex is list order — clients must not reorder. url is the dedicated https origin the in-app browser must open. Clients must not invent listings.",
+  "itemCount": 2,
+  "items": [
+    {
+      "id": "pancake",
+      "sortIndex": 0,
+      "status": "active",
+      "enabled": true,
+      "name": "PancakeSwap",
+      "url": "https://pancakeswap.finance",
+      "blurb": "Your On-Chain Liquidity Provider",
+      "category": "defi",
+      "chain": "bsc",
+      "color": "0xFF1FC7D4",
+      "icon": {
+        "default": "dapps/pancake.png"
+      },
+      "featured": true,
+      "trending": true,
+      "source": {
+        "figmaFile": "iYBpGSTKRX4NE521Jtez8a",
+        "figmaNode": "712:3689"
+      }
+    },
+    {
+      "id": "hyperliquid",
+      "sortIndex": 1,
+      "status": "active",
+      "enabled": true,
+      "name": "Hyperliquid",
+      "url": "https://app.hyperliquid.xyz/",
+      "blurb": "On-chain perpetual exchange",
+      "category": "defi",
+      "chain": "all",
+      "color": "0xFF50E3C2",
+      "icon": {
+        "default": "dapps/hyperliquid.png"
+      },
+      "featured": false,
+      "trending": true
+    }
+  ]
+}
