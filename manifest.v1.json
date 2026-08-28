@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "publishedAt": "2026-08-27T08:05:00.000Z",
+  "publishedAt": "2026-08-28T10:21:54.000Z",
   "files": {
     "chains.catalog": {
       "path": "chains/catalog.v1.json",
@@ -49,6 +49,10 @@
     "posters.catalog": {
       "path": "posters/catalog.v1.json",
       "sha256": "8e7ae55c47a0b17c01affd1d7b4d1ab36c09fc49219f3a0334141fbbfdd66d15"
+    },
+    "dapps.catalog": {
+      "path": "dapps/catalog.v1.json",
+      "sha256": "dee74d42af6c2c9181dfcdcbae2747fffa15bd4fbd33a19b7f64d3d1822dc3b4"
     }
   },
   "iconBase": "https://static.cb.tools/icons/",
