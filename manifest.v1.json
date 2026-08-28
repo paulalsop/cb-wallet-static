@@ -52,7 +52,7 @@
     },
     "dapps.catalog": {
       "path": "dapps/catalog.v1.json",
-      "sha256": "dee74d42af6c2c9181dfcdcbae2747fffa15bd4fbd33a19b7f64d3d1822dc3b4"
+      "sha256": "309b257442535988c14cf5b56a90a9890d6fef8db9a1a082a58b8bdd787b88a2"
     }
   },
   "iconBase": "https://static.cb.tools/icons/",

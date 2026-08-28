@@ -18,10 +18,12 @@
 - `featured`：发现页大卡（对照稿 PancakeSwap）。
 - `trending`：Trending 宫格。
 - `chain`：发现页芯片 `all | nes | eth | bsc | tron`。Hyperliquid 自有 L1，用 `all`，不要硬套 BSC/ETH。
-- `color`：字母标底色，`0xAARRGGBB`。
+- `color`：CDN 图未到时的字母标底色，`0xAARRGGBB`。
+- `icon.default`：相对 `icons/` 的 PNG 路径（如 `dapps/pancake.png`）。客户端拼 `https://static.cb.tools/icons/` + 该值。禁止 SVG、远程 URL、`..`。
 
 ## 上架
 
 1. 在 `items` 追加一行，`sortIndex` 接在末尾。
-2. 更新 `itemCount` / `updatedAt`。
-3. 重算 `manifest.v1.json` 里 `dapps.catalog` 的 sha256。
+2. 把完整圆标 PNG 放进 `icons/dapps/<id>.png`（含底色，不要只切轮廓）。
+3. 更新 `itemCount` / `updatedAt`。
+4. 重算 `manifest.v1.json` 里 `dapps.catalog` 的 sha256。
