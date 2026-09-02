@@ -17,6 +17,8 @@ cb.wallet 远端只读配置仓（链目录 / RPC / **代币目录** / 图标）
 
 本仓与 `mo-wallet-app` 独立，改动不写 `walletdocs/`。钱包运行时只打 `static.cb.tools`，不读你电脑上的这份目录。
 
+**开发记忆点**：本仓改动必须留记忆到 [`staticdocs/`](./staticdocs/INDEX.md)（规则见 `.cursor/rules/staticdocs-memory.mdc` 与 [`staticdocs/RULES.md`](./staticdocs/RULES.md)），与 walletdocs 互不混写。
+
 ## 结构
 
 - `manifest.v1.json` — 总索引 + 文件 sha256

@@ -1,0 +1,73 @@
+# staticdocs 记忆点规范（cb-wallet-static 专用）
+
+> 本文件是 `.cursor/rules/staticdocs-memory.mdc`（仓库内与工作区 `mofitwork/.cursor/rules/` 各一份）的**镜像副本**。
+> 规则共三份内容一致的副本：仓库内 `.cursor/rules/staticdocs-memory.mdc`、工作区 `mofitwork/.cursor/rules/staticdocs-memory.mdc`、本文件。改规则时先改 `.mdc`，再同步其余两份，并在当天记忆点记录该规则变更。
+
+> 适用范围：仅 `cb-wallet-static/`（cb.wallet 远端只读静态 CDN 配置仓：`chains/`、`tokens/`、`icons/`、`market/`、`risk/`、`bridges/`、`posters/`、`dapps/`、`scripts/`、`sources/`、`manifest.v1.json`、`README.md`、`CNAME`、`.github/`）。
+> 各仓记忆互不混用：`mo-wallet-app/` 用 walletdocs、`mofitswapweb/` 用 swapdocs、`mofitscanweb/` 用 scandocs、`code/` 用 codedocs、`S3orR2*` 用 assetdocs。本仓与 `mo-wallet-app` 是**两个独立仓库**：钱包侧代码改动写 walletdocs，本仓改动写 staticdocs，互不混写。
+
+## 改动前必读（强制流程）
+
+每次准备**新增、修改、删除、重构**本仓内容**之前**，必须先：
+
+1. 读 `cb-wallet-static/staticdocs/INDEX.md` 了解全局；
+2. 读 `cb-wallet-static/staticdocs/RULES.md`（规则副本，确保按最新规则执行）；
+3. 按需读相关日期的记忆点（`YYYY-MM-DD.md`）恢复上下文。
+
+未读记忆点不得开始改代码 / 目录 JSON / manifest。
+
+## 强制要求
+
+凡 `cb-wallet-static/` 的**新增、修改、删除、重构**（目录 JSON、脚本、图标、README、manifest、CNAME、`.github`）都必须在本目录留下记忆段。
+「纯数据快照刷新」（重跑既有脚本只更新数值 + manifest 时间戳，无结构变化）也写一段（类型 `chore`，字段可精简但必须留档：动了哪些文件、数据跑到哪个版本）。
+
+## 发布纪律（本仓特有，每段必填「发布状态」）
+
+- `main` 受 GitHub 分支保护：**禁止直推**（含仓库管理员、Cursor「同步更改」）。只能功能分支 PR → 至少 1 个 approving review → 在 GitHub **Merge** → 本地 `git checkout main && git pull`。
+- 合 `main` 即触发 GitHub Pages 上线 `https://static.cb.tools`；钱包客户端要**完全重启**再下拉新 catalog，热重载不够。
+- 改任何目录 JSON：必须同步 `manifest.v1.json` 里对应条目的 sha256 与顶层 `publishedAt`（换域名还要同步 `iconBase` / `posterBase`）；提交前本地跑 `node scripts/assert-sort.mjs`（`sortIndex === index` 不变量）与相关 build/import 脚本。
+- 改 RPC host / 新增链 / 新增 DApp host：先在 monorepo 根跑 `node cb-wallet-static/scripts/validate-wallet-rpc-hosts.mjs`（需要能读到 `mo-wallet-app/` extension 的 `optional-host-permissions.json`）；未进 extension 审查清单的 origin 不得上 CDN（客户端会 fail-closed 仅展示）。
+
+## 安全红线
+
+- 记忆点禁止写入真实 `GITHUB_TOKEN` / PAT / 口令内容；token 只放 `.env`（已被 `.gitignore` 排除）。
+- 第三方资产 / 品牌图标与数据上架前自查授权（如 trustwallet/assets 为 MIT）；生产 UI 禁止出现第三方钱包品牌字样。
+
+## 文件命名（一天一个文件）
+
+```
+cb-wallet-static/staticdocs/YYYY-MM-DD.md
+```
+
+**每天只允许一个记忆文件**，禁止按主题或序号拆成多个。
+当天若有多次改动：在**同一文件内追加一个新的记忆段**，不得新建文件。
+
+## 记忆段模板（每次改动追加一段，必填字段）
+
+```markdown
+## <时间或序号> <标题>
+
+- **类型**: feature | fix | refactor | chore | docs
+- **影响范围**: chains | tokens | icons | market | risk | bridges | posters | dapps | scripts | sources | manifest | README | CNAME | .github
+- **背景**: 为什么要改（1-3 句）
+- **改动摘要**: bullet 列出关键变更
+- **决策记录**: 为什么这样设计（含放弃的方案）
+- **验证方式**: 本地命令 / 线上 `static.cb.tools` 校验 / 客户端侧确认
+- **发布状态**: PR #… / merge 日期；仅本地未推则写「未推」。
+- **当日改动文件**: 本次新增/修改/删除的具体文件路径（逐条列全，便于审计）
+- **给后来者的提示**: 接手时必须先知道的事
+```
+
+文件首行用 `# YYYY-MM-DD 记忆点` 作标题，其下按时间顺序追加各记忆段。
+**「当日改动文件」与「发布状态」字段必填且必须列全。**
+
+## 维护 INDEX
+
+更新 `cb-wallet-static/staticdocs/INDEX.md`：
+- 按日期倒序，**每天一行**：`| 日期 | 当日主题概述 | 文件 |`
+- 当天再次改动时，只更新该行的主题概述，不新增行。
+
+## 质量门槛
+
+- 足够让**没参与对话的人**仅凭 staticdocs 恢复上下文并继续开发。
+- 写清 JSON 主键 / 排序 / 发布路径等契约是否变化；写清与 `mo-wallet-app` 消费侧的对应关系（客户端哪个端读哪个文件）。
